@@ -23,8 +23,8 @@ export default function Navbar() {
             <Image
               src="/images/logo.jpg"
               alt="Rooted Clarity"
-              width={40}
-              height={40}
+              width={60}
+              height={60}
               className="rounded-full"
             />
             <span className="font-[family-name:var(--font-playfair)] text-gold text-lg font-semibold hidden sm:inline">

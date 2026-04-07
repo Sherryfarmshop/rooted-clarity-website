@@ -15,15 +15,6 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50" />
 
       <div className="relative z-10 flex flex-col items-center gap-6 max-w-3xl">
-        <Image
-          src="/images/logo.jpg"
-          alt="Rooted Clarity — Tree of Life"
-          width={160}
-          height={160}
-          className="rounded-full shadow-2xl shadow-gold/20"
-          priority
-        />
-
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-cream leading-tight">
           Your Labs Tell a Story.{" "}
           <span className="text-gold">Understand It with Clarity.</span>
