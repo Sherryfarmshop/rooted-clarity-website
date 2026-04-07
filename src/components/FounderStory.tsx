@@ -12,17 +12,20 @@ export default function FounderStory() {
           </span>
           <div className="space-y-6 text-softwhite/85 text-lg leading-relaxed italic">
             <p>
-              I was diagnosed with cancer — and my doctor never once mentioned how
-              my metabolic health, my diet, or my bloodwork connected to what was
-              happening in my body.
+              When I was diagnosed with cancer, I began looking more closely at the
+              bigger picture of my health — my metabolic health, my nutrition, and
+              the patterns in my bloodwork that I felt deserved more attention.
             </p>
             <p>
-              I started researching on my own. I found doctors like Seyfried, Berg,
-              and D&apos;Agostino who were connecting the dots that mainstream
-              medicine refuses to.
+              That search led me into a deeper world of research. I began learning
+              from physicians, researchers, and educators who were exploring the
+              connections between metabolism, nutrition, and disease in a way that
+              made more sense to me.
             </p>
             <p className="text-cream font-medium">
-              Rooted Clarity is the tool I wish I had.
+              Rooted Clarity grew from that journey. It is the resource I wish I
+              had when I was trying to connect the dots and better understand what
+              my body was telling me.
             </p>
           </div>
 
