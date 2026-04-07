@@ -15,6 +15,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative z-10 flex flex-col items-center gap-6 max-w-3xl">
+        <span className="inline-block px-5 py-2 bg-gold/20 border border-gold/40 text-gold text-sm font-semibold uppercase tracking-widest rounded-full mb-4">
+          Coming Soon
+        </span>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-cream leading-tight">
           Your Labs Tell a Story.{" "}
           <span className="text-gold">Understand It with Clarity.</span>
