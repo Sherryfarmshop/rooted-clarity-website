@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Rooted Clarity | Your Labs Tell a Story Your Doctor Isn't Reading",
+  title: "Rooted Clarity | Your Labs Tell a Story. Understand It with Clarity.",
   description:
     "Upload your bloodwork. Get real answers. Metabolic health insights, alternative supplement protocols, and personalized wellness plans — backed by real science, not mainstream silence.",
   keywords: [

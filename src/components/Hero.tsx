@@ -25,8 +25,8 @@ export default function Hero() {
         />
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-cream leading-tight">
-          Your Labs Tell a Story{" "}
-          <span className="text-gold">Your Doctor Isn&apos;t Reading</span>
+          Your Labs Tell a Story.{" "}
+          <span className="text-gold">Understand It with Clarity.</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-softwhite/80 max-w-2xl leading-relaxed">
