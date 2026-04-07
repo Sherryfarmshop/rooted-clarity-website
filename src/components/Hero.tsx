@@ -12,7 +12,7 @@ export default function Hero() {
         priority
       />
       {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative z-10 flex flex-col items-center gap-6 max-w-3xl">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-cream leading-tight">
