@@ -56,13 +56,13 @@ export default function Footer() {
           {/* Logo & name */}
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.webp"
               alt="Rooted Clarity"
-              width={36}
-              height={36}
-              className="rounded-full"
+              width={50}
+              height={50}
+              className="rounded-lg"
             />
-            <span className="font-[family-name:var(--font-playfair)] text-gold text-lg font-semibold">
+            <span className="font-[family-name:var(--font-playfair)] text-gold text-xl sm:text-2xl font-semibold">
               Rooted Clarity
             </span>
           </div>
