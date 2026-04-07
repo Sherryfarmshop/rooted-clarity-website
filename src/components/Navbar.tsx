@@ -21,11 +21,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <a href="#" className="flex items-center gap-2">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.webp"
               alt="Rooted Clarity"
-              width={60}
-              height={60}
-              className="rounded-xl"
+              width={50}
+              height={50}
+              className="rounded-lg"
             />
             <span className="font-[family-name:var(--font-playfair)] text-gold text-xl sm:text-2xl font-semibold hidden sm:inline">
               Rooted Clarity
