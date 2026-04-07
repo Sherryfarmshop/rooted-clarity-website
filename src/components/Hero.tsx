@@ -2,11 +2,17 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 pt-16 bg-dark">
-      {/* Subtle radial glow behind logo */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-[600px] h-[600px] bg-gold/5 rounded-full blur-3xl" />
-      </div>
+    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 pt-16">
+      {/* Hero background image */}
+      <Image
+        src="/images/hero-bg.jpg"
+        alt="Ancient tree with deep roots in golden forest light"
+        fill
+        className="object-cover"
+        priority
+      />
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-black/50" />
 
       <div className="relative z-10 flex flex-col items-center gap-6 max-w-3xl">
         <Image
