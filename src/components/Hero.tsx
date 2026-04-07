@@ -30,9 +30,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl text-softwhite/80 max-w-2xl leading-relaxed">
-          Upload your bloodwork. Get real answers. Metabolic health insights,
-          alternative supplement protocols, and personalized wellness plans —
-          backed by real science, not mainstream silence.
+          Upload your bloodwork and explore wellness-focused insights, metabolic
+          patterns, and personalized guidance to help you better understand your body.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-4">
