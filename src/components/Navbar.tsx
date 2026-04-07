@@ -25,9 +25,9 @@ export default function Navbar() {
               alt="Rooted Clarity"
               width={60}
               height={60}
-              className="rounded-full"
+              className="rounded-xl"
             />
-            <span className="font-[family-name:var(--font-playfair)] text-gold text-lg font-semibold hidden sm:inline">
+            <span className="font-[family-name:var(--font-playfair)] text-gold text-xl sm:text-2xl font-semibold hidden sm:inline">
               Rooted Clarity
             </span>
           </a>
