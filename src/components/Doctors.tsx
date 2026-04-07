@@ -15,11 +15,13 @@ export default function Doctors() {
     <section id="doctors" className="py-20 sm:py-28 px-4 bg-dark">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-cream mb-4">
-          Informed by <span className="text-gold">Real Doctors</span>
+          Built on Research, <span className="text-gold">Not Guesswork</span>
         </h2>
         <p className="text-center text-softwhite/70 max-w-2xl mx-auto mb-16 text-lg">
-          Our protocols are shaped by the research and clinical work of physicians
-          and scientists who are redefining health.
+          Rooted Clarity draws from publicly available research and educational
+          content from physicians, researchers, and health educators who have
+          helped advance conversations around metabolic health, nutrition,
+          fasting, and wellness.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
