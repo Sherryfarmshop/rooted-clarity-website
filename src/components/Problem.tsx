@@ -13,58 +13,13 @@ export default function Problem() {
               <span className="text-[#C9A84C]">and Your Health</span>
             </h2>
 
-            {/* Leaf divider */}
-            <div className="flex items-center gap-2 mb-8">
-              <div className="w-8 h-px bg-[#C9A84C]/50" />
-              <svg className="w-5 h-5 text-[#C9A84C]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                <path d="M12 2C6.5 2 2 6.5 2 12c0 4 2.5 7.5 6 9.5" strokeLinecap="round"/>
-                <path d="M12 2c2.5 4 2.5 8 0 12" strokeLinecap="round"/>
-                <path d="M12 2c-2.5 4-2.5 8 0 12" strokeLinecap="round"/>
-              </svg>
-              <div className="w-8 h-px bg-[#C9A84C]/50" />
-            </div>
-
-            <div className="space-y-5">
+            <div className="space-y-4 mt-6">
               {[
-                {
-                  icon: (
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                    </svg>
-                  ),
-                  text: <>You get your bloodwork back and are told <span className="text-[#C9A84C]">everything looks normal.</span></>
-                },
-                {
-                  icon: (
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                  ),
-                  text: <>But you still<br />do not feel like yourself.</>
-                },
-                {
-                  icon: (
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                    </svg>
-                  ),
-                  text: <>You feel <span className="text-[#C9A84C]">tired.<br />Foggy. Off.</span></>
-                },
-                {
-                  icon: (
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  ),
-                  text: <>You know something is <span className="text-[#C9A84C]">not right</span>,<br />even when the numbers seem fine.</>
-                },
-              ].map((item, i) => (
-                <div key={i} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-lg border border-white/20 bg-white/10 flex items-center justify-center flex-shrink-0 text-[#C9A84C]">
-                    {item.icon}
-                  </div>
-                  <p className="text-green-100 text-sm leading-relaxed pt-2">{item.text}</p>
-                </div>
+                <>You&apos;re told everything looks <span className="text-[#C9A84C]">&ldquo;normal.&rdquo;</span></>,
+                <>But you don&apos;t feel like yourself.</>,
+                <>You know something is off.</>,
+              ].map((text, i) => (
+                <p key={i} className="text-green-100 text-lg leading-relaxed">{text}</p>
               ))}
             </div>
           </div>
