@@ -6,7 +6,6 @@ export default function FounderStory() {
 
           {/* Left — text */}
           <div>
-            <p className="text-[#8B6914] text-xs font-semibold uppercase tracking-widest mb-4">My Story</p>
             <h2 className="font-serif text-5xl sm:text-6xl font-bold text-[#1B3A2A] leading-tight mb-5">
               Why I Built<br />Rooted Clarity
             </h2>
