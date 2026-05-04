@@ -5,7 +5,7 @@ export default function WhatMakesUsDifferent() {
       {/* Olive branch — top right corner, desktop only */}
       <div className="hidden md:block absolute top-0 right-0 w-72 h-[500px] pointer-events-none select-none">
         <img
-          src="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=600&q=80"
+          src="https://images.unsplash.com/photo-1585152968992-d2b9444408cc?w=600&q=80"
           alt=""
           className="w-full h-full object-cover object-bottom"
         />
