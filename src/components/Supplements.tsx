@@ -97,7 +97,7 @@ export default function Supplements() {
                 href="https://keto-mojo.com/affiliate-link/?rfsn=9065371.4e0112&utm_source=refersion&utm_medium=affiliate&utm_campaign=9065371.4e0112"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-[#1B3A2A] text-white font-semibold py-3 rounded-lg hover:bg-[#15301f] transition-colors text-sm"
+                className="block w-full text-center bg-[#C9A84C] text-[#1B1B1B] font-bold py-4 rounded-lg hover:bg-[#b8944c] transition-colors text-sm shadow-md"
               >
                 Explore Tools
               </a>
@@ -138,7 +138,7 @@ export default function Supplements() {
                 href="https://us.fullscript.com/welcome/scleland1775530044"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center bg-[#C9A84C] text-white font-semibold py-3 rounded-lg hover:bg-[#b8944c] transition-colors text-sm"
+                className="block w-full text-center bg-[#C9A84C] text-[#1B1B1B] font-bold py-4 rounded-lg hover:bg-[#b8944c] transition-colors text-sm shadow-md"
               >
                 Shop Supplements
               </a>
@@ -175,7 +175,7 @@ export default function Supplements() {
           </div>
           <a
             href="#signup"
-            className="flex-shrink-0 inline-block border-2 border-white text-white font-semibold px-6 py-3 rounded-lg hover:bg-white hover:text-[#1B3A2A] transition-colors text-sm whitespace-nowrap"
+            className="flex-shrink-0 inline-block bg-[#C9A84C] text-[#1B1B1B] font-bold px-8 py-4 rounded-lg hover:bg-[#b8944c] transition-colors text-sm shadow-md whitespace-nowrap"
           >
             Upload Your Labs (Takes 2 Minutes)
           </a>

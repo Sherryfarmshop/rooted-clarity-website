@@ -135,9 +135,9 @@ export default function Doctors() {
           <div className="flex flex-col items-center gap-2">
             <a
               href="#signup"
-              className="inline-block bg-[#C9A84C] text-white font-bold px-6 py-3 rounded-lg hover:bg-[#b8944c] transition-colors text-sm whitespace-nowrap"
+              className="inline-block bg-[#C9A84C] text-[#1B1B1B] font-bold px-8 py-4 rounded-lg hover:bg-[#b8944c] transition-colors text-sm shadow-md whitespace-nowrap"
             >
-              Upload Your Labs (Takes 2 Minutes) →
+              Upload Your Labs (Takes 2 Minutes)
             </a>
             <span className="text-green-300/50 text-xs flex items-center gap-1">
               🔒 100% Secure & HIPAA Compliant

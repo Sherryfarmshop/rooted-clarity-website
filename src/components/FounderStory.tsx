@@ -100,12 +100,9 @@ export default function FounderStory() {
             </p>
             <a
               href="#signup"
-              className="inline-flex items-center gap-2 bg-[#1B3A2A] text-white font-semibold px-6 py-3 rounded-lg hover:bg-[#15301f] transition-colors text-sm"
+              className="inline-block bg-[#C9A84C] text-[#1B1B1B] font-bold px-8 py-4 rounded-lg hover:bg-[#b8944c] transition-colors text-sm shadow-md"
             >
-              See What Your Labs Are Really Saying
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
+              Upload Your Labs (Takes 2 Minutes)
             </a>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg">
