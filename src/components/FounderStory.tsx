@@ -33,14 +33,12 @@ export default function FounderStory() {
 
           <div className="w-12 h-px bg-[#C9A84C]/40 mx-auto my-6" />
 
-          <div className="flex items-center gap-3">
+          <div className="flex flex-col items-center gap-2">
             <div className="w-10 h-10 rounded-full bg-[#C9A84C] flex items-center justify-center">
               <span className="text-white font-bold text-sm">S</span>
             </div>
-            <div>
-              <p className="text-white font-semibold">— Sherry</p>
-              <p className="text-green-300 text-xs">Founder</p>
-            </div>
+            <p className="text-white font-semibold">— Sherry</p>
+            <p className="text-green-300 text-xs">Founder</p>
           </div>
         </div>
       </div>
