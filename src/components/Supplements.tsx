@@ -6,11 +6,17 @@ export default function Supplements() {
       <div className="bg-[#f0ece3] px-6 py-16 relative overflow-hidden">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
           <div>
+            <p className="text-[#8B6914]/70 text-xs font-normal uppercase tracking-widest mb-4">
+              Start with your labs. Then we decide what you actually need.
+            </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 leading-tight mb-5">
-              Tools &amp; Supplements<br />That Create Change
+              Tools I Trust —<br />When Your Body Needs Support
             </h2>
             <p className="text-gray-600 text-base leading-relaxed text-justify max-w-sm">
-              Information is important. Action is what creates results. These are the tools and supplements I trust to help you improve your health—backed by evidence, chosen with intention.
+              Supplements aren&apos;t the starting point — they&apos;re the support.
+            </p>
+            <p className="text-gray-600 text-base leading-relaxed text-justify max-w-sm mt-3">
+              Once we understand what your labs are actually showing, these are the tools I use to help move things in the right direction.
             </p>
           </div>
           <div className="hidden md:flex justify-center items-center">
@@ -119,7 +125,7 @@ export default function Supplements() {
                   </svg>
                 </div>
               </div>
-              <h4 className="font-serif text-2xl font-bold text-[#C9A84C] text-center mb-2">Take Action</h4>
+              <h4 className="font-serif text-2xl font-bold text-[#C9A84C] text-center mb-2">Support Your Body</h4>
               <div className="w-8 h-px bg-[#C9A84C] mx-auto mb-4" />
               <p className="text-gray-500 text-sm leading-relaxed text-justify mb-5">
                 Once you understand your body, the next step is support that works. These are the supplements I trust and recommend.
@@ -140,7 +146,7 @@ export default function Supplements() {
                 rel="noopener noreferrer"
                 className="block w-full text-center bg-[#C9A84C] text-[#1a1a1a] font-bold py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200"
               >
-                Shop Supplements
+                View Recommended Supplements
               </a>
             </div>
 
