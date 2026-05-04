@@ -2,19 +2,23 @@ export default function WhatMakesUsDifferent() {
   const cards = [
     {
       title: "We Look Beyond \u201cNormal\u201d",
-      lines: ["We don\u2019t just check ranges.", "We look at how your labs work together."],
+      bold: "We don\u2019t just check ranges.",
+      rest: "We look at how your labs work together.",
     },
     {
       title: "No Guesswork Supplements",
-      lines: ["You get targeted support.", "Not random recommendations."],
+      bold: "You get targeted support.",
+      rest: "Not random recommendations.",
     },
     {
       title: "Nutrition That Matches Your Labs",
-      lines: ["Not trends. Not fads.", "What your body actually needs."],
+      bold: "Not trends. Not fads.",
+      rest: "What your body actually needs.",
     },
     {
       title: "Built on Real Science",
-      lines: ["Based on research and clinical experience.", "Not opinions. Not trends."],
+      bold: "Based on research and clinical experience.",
+      rest: "Not opinions. Not trends.",
     },
   ];
 
@@ -35,12 +39,10 @@ export default function WhatMakesUsDifferent() {
         {/* 4 Cards */}
         <div className="grid sm:grid-cols-2 gap-6 mb-10">
           {cards.map((card) => (
-            <div key={card.title} className="bg-[#fdfcfa] rounded-2xl p-8 shadow-sm border border-gray-100">
+            <div key={card.title} className="bg-[#edeae4] rounded-2xl p-6 shadow-md border border-gray-200">
               <h3 className="font-bold text-gray-900 text-lg mb-3">{card.title}</h3>
-              <div className="w-8 h-px bg-[#C9A84C] mb-4" />
-              {card.lines.map((line, i) => (
-                <p key={i} className="text-gray-500 text-sm leading-relaxed">{line}</p>
-              ))}
+              <p className="text-gray-700 text-sm leading-relaxed font-semibold">{card.bold}</p>
+              <p className="text-gray-500 text-sm leading-relaxed mt-1">{card.rest}</p>
             </div>
           ))}
         </div>
