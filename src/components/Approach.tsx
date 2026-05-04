@@ -1,101 +1,85 @@
 export default function Approach() {
-  const pillars = [
-    {
-      title: "Patterns, Not Just Numbers",
-      body: "We don\u2019t stop at ranges. We look at how your labs interact.",
-    },
-    {
-      title: "Whole-Body Insight",
-      body: "Your symptoms, labs, and lifestyle are connected.",
-    },
-    {
-      title: "Clarity You Can Act On",
-      body: "Clear, personalized direction based on what your body is actually telling you.",
-    },
-  ];
-
-  const doctors = [
-    "Dr. Dom D\u2019Agostino",
-    "Dr. Andrew Koutnik",
-    "Dr. Thomas Seyfried",
-    "Dr. Ben Bikman",
-    "Dr. Casey Means",
-    "Dr. Mark Hyman",
-  ];
-
   return (
-    <section id="approach" className="bg-[#f7f4ef]">
-      <div className="max-w-4xl mx-auto px-6 py-20 sm:py-28">
+    <section id="approach" className="bg-[#f0ece3]">
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-24 sm:py-32">
 
-        {/* Headline */}
-        <h2 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 leading-tight mb-8">
-          This Is Where Most Approaches Fall Short
-        </h2>
-
-        {/* Intro */}
-        <div className="mb-10 space-y-1">
-          <p className="text-gray-700 text-lg font-semibold">You&apos;re not crazy.</p>
-          <p className="text-gray-700 text-lg font-semibold">Your labs aren&apos;t &ldquo;fine.&rdquo;</p>
-          <p className="text-gray-700 text-lg font-semibold">They&apos;re just being looked at the wrong way.</p>
-        </div>
-
-        {/* Core paragraphs */}
-        <div className="space-y-5 mb-14 max-w-2xl">
-          <p className="text-gray-600 text-base leading-relaxed text-justify">
-            Most providers look at numbers. We look at what they mean together.
+        {/* 1. HEADLINE */}
+        <div className="max-w-3xl mb-16">
+          <h2 className="font-serif text-5xl sm:text-6xl font-bold text-[#1B3A2A] leading-tight mb-6">
+            Most Approaches Miss the Point
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-3">
+            Your labs aren&apos;t &ldquo;fine.&rdquo; They&apos;re being interpreted in isolation.
           </p>
-          <p className="text-gray-600 text-base leading-relaxed text-justify">
-            Your body doesn&apos;t operate in isolated markers. It works as a system — and your labs reflect that.
-          </p>
-          <p className="text-gray-600 text-base leading-relaxed text-justify">
-            When you only look at individual values, you miss the bigger picture. That&apos;s why people are told everything is &ldquo;normal&rdquo;&hellip; and still don&apos;t feel like themselves.
+          <p className="text-gray-700 text-lg leading-relaxed">
+            Your body works as a system — and your labs reflect that.
           </p>
         </div>
 
-        {/* Three pillars */}
-        <div className="grid sm:grid-cols-3 gap-6 mb-16">
-          {pillars.map((p) => (
-            <div key={p.title} className="bg-white rounded-2xl p-6 shadow-[0_2px_12px_rgba(0,0,0,0.08)] border border-gray-200/80">
-              <h3 className="font-bold text-gray-900 text-base mb-2">{p.title}</h3>
-              <div className="w-6 h-px bg-[#C9A84C] mb-3" />
-              <p className="text-gray-500 text-sm leading-relaxed">{p.body}</p>
+        {/* 2. FEATURE IMAGE + TEXT */}
+        <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center mb-24">
+
+          {/* Image — cinematic crop */}
+          <div className="overflow-hidden rounded-2xl shadow-xl">
+            <img
+              src="/images/founder-story.jpg"
+              alt="Woman on dock at sunrise"
+              className="w-full h-[420px] object-cover object-center scale-105"
+            />
+          </div>
+
+          {/* Right text */}
+          <div>
+            <p className="font-serif text-3xl sm:text-4xl text-[#1B3A2A] font-semibold leading-snug mb-6">
+              When everything looks normal&hellip; but you still don&apos;t feel right &mdash;
+              that&apos;s not in your head.
+            </p>
+            <div className="w-10 h-0.5 bg-[#C9A84C] mb-6" />
+            <p className="text-gray-600 text-lg leading-relaxed">
+              It means no one has connected the dots yet.
+            </p>
+          </div>
+
+        </div>
+
+        {/* 3. THREE PILLARS — no boxes */}
+        <div className="grid md:grid-cols-3 gap-10 mb-24">
+          {[
+            {
+              title: "Patterns",
+              body: "We don\u2019t stop at ranges. We look at how everything interacts.",
+            },
+            {
+              title: "Whole-Body Insight",
+              body: "Your labs, symptoms, and lifestyle are connected.",
+            },
+            {
+              title: "Clear Direction",
+              body: "You leave knowing exactly what to do next.",
+            },
+          ].map((p) => (
+            <div key={p.title} className="border-t-2 border-[#1B3A2A] pt-6">
+              <h3 className="font-serif text-3xl font-bold text-[#1B3A2A] mb-3">{p.title}</h3>
+              <p className="text-gray-600 text-base leading-relaxed">{p.body}</p>
             </div>
           ))}
         </div>
 
-        {/* Credibility */}
-        <div className="bg-[#1B3A2A] rounded-2xl px-8 py-10 mb-14 text-center">
-          <h3 className="font-serif text-2xl sm:text-3xl text-white font-semibold mb-6">
-            Where This Approach Comes From
+        {/* 4. DOCTOR / RESEARCH SECTION */}
+        <div className="border-t border-gray-300 pt-16">
+          <h3 className="font-serif text-3xl sm:text-4xl font-bold text-[#1B3A2A] mb-4">
+            Built from Real Metabolic Research
           </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
-            {doctors.map((doc) => (
-              <div key={doc} className="bg-white/10 rounded-lg px-4 py-3">
-                <p className="text-[#f0ece3] text-sm font-medium">{doc}</p>
-              </div>
+          <p className="text-gray-600 text-base leading-relaxed max-w-2xl mb-8">
+            We draw from leading work in metabolism, nutrition, and clinical practice — and translate it into something you can actually use.
+          </p>
+          <div className="flex flex-wrap gap-6">
+            {["Dr. Dom D\u2019Agostino", "Dr. Thomas Seyfried", "Dr. Ben Bikman", "Dr. Casey Means"].map((name) => (
+              <span key={name} className="text-[#1B3A2A] font-semibold text-sm border-b border-[#C9A84C] pb-0.5">
+                {name}
+              </span>
             ))}
           </div>
-          <p className="text-green-300/70 text-sm">
-            We draw from leading work in metabolic health and clinical research.
-          </p>
-        </div>
-
-        {/* Closing lines */}
-        <div className="text-center mb-10 space-y-2">
-          <p className="font-serif text-2xl sm:text-3xl text-gray-900 font-semibold">You stop guessing.</p>
-          <p className="font-serif text-2xl sm:text-3xl text-gray-900 font-semibold">
-            You finally understand what&apos;s going on — and what to do next.
-          </p>
-        </div>
-
-        {/* CTA */}
-        <div className="flex justify-center">
-          <a
-            href="#signup"
-            className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200"
-          >
-            Upload Your Labs (Takes 2 Minutes)
-          </a>
         </div>
 
       </div>
