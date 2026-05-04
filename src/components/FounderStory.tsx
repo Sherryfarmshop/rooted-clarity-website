@@ -9,25 +9,25 @@ export default function FounderStory() {
         </div>
 
         <div className="bg-white/10 rounded-2xl p-8 sm:p-12 border border-white/10">
-          <p className="text-green-100 text-base sm:text-lg leading-relaxed italic text-justify mb-6">
+          <p className="text-green-100 text-base sm:text-lg leading-relaxed italic text-center mb-6">
             When I was diagnosed with cancer, I started looking deeper at my health — my metabolism, my nutrition, and the patterns in my bloodwork that felt like they were being overlooked.
           </p>
 
           <div className="w-12 h-px bg-[#C9A84C]/40 mx-auto my-6" />
 
-          <p className="text-green-100 text-base sm:text-lg leading-relaxed italic text-justify mb-2">
+          <p className="text-green-100 text-base sm:text-lg leading-relaxed italic text-center mb-2">
             That search led me into a deeper world of research.
           </p>
-          <p className="text-green-100 text-base sm:text-lg leading-relaxed italic text-justify mb-6">
+          <p className="text-green-100 text-base sm:text-lg leading-relaxed italic text-center mb-6">
             I began learning from physicians and researchers exploring the connections between metabolism, nutrition, and disease — in a way that finally made sense.
           </p>
 
           <div className="w-12 h-px bg-[#C9A84C]/40 mx-auto my-6" />
 
-          <p className="text-white text-base sm:text-lg leading-relaxed font-medium not-italic text-justify mb-2">
+          <p className="text-[#C9A84C] text-base sm:text-lg leading-relaxed italic text-center mb-2 font-semibold">
             Rooted Clarity grew from that journey.
           </p>
-          <p className="text-white text-base sm:text-lg leading-relaxed font-medium not-italic text-justify">
+          <p className="text-[#C9A84C] text-base sm:text-lg leading-relaxed italic text-center font-semibold">
             It&apos;s the resource I wish I had when I was trying to connect the dots and understand what my body was telling me.
           </p>
 
