@@ -2,14 +2,27 @@ export default function WhatMakesUsDifferent() {
   return (
     <section id="different" className="relative bg-[#f0ece3] overflow-hidden">
 
-      {/* Olive branch — top right corner, desktop only */}
-      <div className="hidden md:block absolute top-0 right-0 w-72 h-[500px] pointer-events-none select-none">
-        <img
-          src="https://images.unsplash.com/photo-1585152968992-d2b9444408cc?w=600&q=80"
-          alt=""
-          className="w-full h-full object-cover object-bottom"
-        />
-        <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#f0ece3]/10 to-[#f0ece3]" />
+      {/* Olive branch SVG — top right corner, desktop only */}
+      <div className="hidden md:block absolute top-0 right-0 w-80 h-[500px] pointer-events-none select-none opacity-20">
+        <svg viewBox="0 0 300 500" fill="none" className="w-full h-full">
+          <path d="M280 0 C260 80 220 140 180 200 C140 260 100 320 80 400 C70 440 65 480 60 500" stroke="#4a6741" strokeWidth="2" fill="none"/>
+          <ellipse cx="240" cy="60" rx="20" ry="10" fill="#4a6741" transform="rotate(-30 240 60)"/>
+          <ellipse cx="260" cy="40" rx="18" ry="9" fill="#4a6741" transform="rotate(-50 260 40)"/>
+          <ellipse cx="220" cy="100" rx="22" ry="10" fill="#4a6741" transform="rotate(20 220 100)"/>
+          <ellipse cx="250" cy="90" rx="18" ry="8" fill="#4a6741" transform="rotate(-40 250 90)"/>
+          <ellipse cx="200" cy="150" rx="20" ry="10" fill="#4a6741" transform="rotate(-20 200 150)"/>
+          <ellipse cx="230" cy="140" rx="18" ry="9" fill="#4a6741" transform="rotate(30 230 140)"/>
+          <ellipse cx="180" cy="210" rx="22" ry="10" fill="#4a6741" transform="rotate(15 180 210)"/>
+          <ellipse cx="210" cy="195" rx="16" ry="8" fill="#4a6741" transform="rotate(-35 210 195)"/>
+          <ellipse cx="160" cy="270" rx="20" ry="10" fill="#4a6741" transform="rotate(-25 160 270)"/>
+          <ellipse cx="190" cy="250" rx="18" ry="8" fill="#4a6741" transform="rotate(25 190 250)"/>
+          <ellipse cx="140" cy="330" rx="22" ry="10" fill="#4a6741" transform="rotate(10 140 330)"/>
+          <ellipse cx="170" cy="310" rx="16" ry="8" fill="#4a6741" transform="rotate(-30 170 310)"/>
+          <ellipse cx="110" cy="390" rx="20" ry="10" fill="#4a6741" transform="rotate(-20 110 390)"/>
+          <ellipse cx="140" cy="370" rx="18" ry="8" fill="#4a6741" transform="rotate(20 140 370)"/>
+          <ellipse cx="90" cy="440" rx="18" ry="9" fill="#4a6741" transform="rotate(15 90 440)"/>
+          <ellipse cx="115" cy="420" rx="16" ry="8" fill="#4a6741" transform="rotate(-25 115 420)"/>
+        </svg>
       </div>
 
       <div className="relative max-w-5xl mx-auto px-6 py-20 sm:py-28">
