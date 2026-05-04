@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      {/* HERO — dark green, two column */}
+      {/* HERO */}
       <section className="bg-[#1B3A2A] pt-16">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12 grid md:grid-cols-2 items-end min-h-[70vh]">
+        <div className="max-w-6xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 items-end">
 
           {/* Left — text */}
-          <div className="py-16 md:py-24">
+          <div className="py-16">
             <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl text-white font-bold leading-tight mb-5">
               Built on Research.<br />
               Not Guesswork.
@@ -44,33 +44,27 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right — plant + vase photo, flush to bottom */}
-          <div className="hidden md:flex items-end justify-center h-full">
-            <div className="relative w-full max-w-sm h-[500px]">
-              <Image
-                src="/images/hero-plants.jpg"
-                alt="Green plant in beige vase"
-                fill
-                className="object-contain object-bottom"
-                priority
-              />
-            </div>
+          {/* Right — plant photo, always visible */}
+          <div className="flex items-end justify-center">
+            <img
+              src="/images/hero-plants.jpg"
+              alt="Green plants in beige vase"
+              className="w-full max-w-xs h-auto object-contain object-bottom"
+            />
           </div>
 
         </div>
       </section>
 
       {/* "Where most stop" — ivory */}
-      <section className="bg-[#f0ece3] px-6 py-20 sm:py-28 text-center">
-        <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl text-gray-900 leading-tight mb-5">
+      <section className="bg-[#f0ece3] px-6 py-20 text-center">
+        <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl text-gray-900 leading-tight mb-5 italic">
           Where most stop<br />
           at &ldquo;normal,&rdquo;<br />
           we go further.
         </h2>
-        <div className="w-8 h-0.5 bg-[#C9A84C] mx-auto mb-6" />
-        <p className="text-gray-500 text-lg">
-          We look for patterns, not just numbers.
-        </p>
+        <div className="w-8 h-0.5 bg-[#C9A84C] mx-auto mb-5" />
+        <p className="text-gray-500 text-lg">We look for patterns, not just numbers.</p>
       </section>
     </>
   );
