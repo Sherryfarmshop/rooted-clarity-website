@@ -36,36 +36,12 @@ export default function Problem() {
         </div>
       </div>
 
-      {/* MIDDLE: Cream puzzle card */}
-      <div className="bg-[#f5f0e8] px-6 py-10">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl p-8 flex flex-col sm:flex-row gap-6 items-start shadow-sm">
-            {/* Puzzle illustration */}
-            <div className="flex-shrink-0">
-              <div className="w-20 h-20 relative">
-                <svg viewBox="0 0 80 80" className="w-full h-full">
-                  {/* Gold puzzle piece */}
-                  <path d="M10 10 h20 q0-8 8-8 q8 0 8 8 h0 v20 h-36z" fill="#C9A84C" opacity="0.9"/>
-                  {/* Green puzzle piece */}
-                  <path d="M10 46 h36 v24 h-20 q0 8-8 8 q-8 0-8-8 h0z" fill="#1c3320" opacity="0.9"/>
-                  {/* Light piece */}
-                  <path d="M46 10 h24 v36 q8 0 8 8 q0 8-8 8 v0 h-24z" fill="#C9A84C" opacity="0.5"/>
-                  {/* Dark overlap */}
-                  <path d="M46 54 h24 v16 h-24z" fill="#1c3320" opacity="0.5"/>
-                </svg>
-              </div>
-            </div>
-            <div>
-              <p className="text-gray-700 leading-relaxed mb-3 text-justify">
-                That is because health is not always found in one marker alone.
-              </p>
-              <p className="text-gray-700 leading-relaxed text-justify">
-                Real insight comes from understanding how your labs work together — and what they may be revealing about the{" "}
-                <span className="text-green-800 font-medium">bigger metabolic picture.</span>
-              </p>
-            </div>
-          </div>
-        </div>
+      {/* MIDDLE: Centered statement */}
+      <div className="bg-[#f5f0e8] px-6 py-20 sm:py-24 text-center">
+        <p className="font-serif text-3xl sm:text-4xl md:text-5xl text-[#1B3A2A] leading-tight">
+          Your labs don&apos;t exist in isolation.<br />
+          Your body works as a system.
+        </p>
       </div>
 
       {/* BOTTOM: Dark CTA card */}
