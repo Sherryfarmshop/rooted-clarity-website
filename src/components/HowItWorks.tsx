@@ -9,7 +9,7 @@ export default function HowItWorks() {
       </div>
 
       {/* Main dark green section */}
-      <div className="bg-[#1c3320] py-16 px-6">
+      <div className="bg-[#1B3A2A] py-16 px-6">
         <div className="max-w-5xl mx-auto">
 
           {/* Heading */}
@@ -116,7 +116,7 @@ export default function HowItWorks() {
           </div>
           <div className="border-l border-gray-300 pl-4">
             <p className="text-gray-700 text-sm font-medium">We don&apos;t just follow research.</p>
-            <p className="text-gray-700 text-sm">We apply it to <strong className="text-[#1c3320]">YOUR</strong> labs.</p>
+            <p className="text-gray-700 text-sm">We apply it to <strong className="text-[#1B3A2A]">YOUR</strong> labs.</p>
           </div>
         </div>
       </div>

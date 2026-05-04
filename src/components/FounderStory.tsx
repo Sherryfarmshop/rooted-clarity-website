@@ -1,6 +1,6 @@
 export default function FounderStory() {
   return (
-    <section id="about" className="py-20 sm:py-28 px-6 bg-green-900">
+    <section id="about" className="py-20 sm:py-28 px-6 bg-[#1B3A2A]">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-10">
           <p className="text-[#C9A84C] text-xs font-semibold uppercase tracking-widest mb-3">Our Story</p>

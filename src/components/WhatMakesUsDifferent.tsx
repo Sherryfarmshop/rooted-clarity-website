@@ -129,7 +129,7 @@ export default function WhatMakesUsDifferent() {
         </div>
 
         {/* Dark CTA banner */}
-        <div className="bg-[#1c3320] rounded-2xl px-8 py-10">
+        <div className="bg-[#1B3A2A] rounded-2xl px-8 py-10">
           <div className="flex flex-col sm:flex-row items-center gap-8">
             {/* Circle chart icon */}
             <div className="flex-shrink-0 w-20 h-20 rounded-full border-2 border-[#C9A84C] flex items-center justify-center">
