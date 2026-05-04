@@ -19,13 +19,15 @@ export default function Approach() {
         {/* 2. FEATURE IMAGE + TEXT */}
         <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center mb-24">
 
-          {/* Image — cinematic crop */}
-          <div className="overflow-hidden rounded-2xl shadow-xl">
+          {/* Image — lab sheet, tight crop, warm tones */}
+          <div className="relative overflow-hidden rounded-2xl shadow-xl" style={{ flex: "0 0 55%" }}>
             <img
-              src="/images/founder-story.jpg"
-              alt="Woman on dock at sunrise"
-              className="w-full h-[420px] object-cover object-center scale-105"
+              src="/images/lab-results.jpg"
+              alt="Hands reviewing lab results with handwritten notes"
+              className="w-full h-[460px] object-cover object-top"
             />
+            {/* Subtle dark overlay for depth */}
+            <div className="absolute inset-0 bg-black/12 rounded-2xl" />
           </div>
 
           {/* Right text */}
