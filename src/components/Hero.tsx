@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background — dark green with plant/leaf photo */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=1400&q=80"
+          src="/images/hero-plants.jpg"
           alt=""
           className="w-full h-full object-cover"
         />
