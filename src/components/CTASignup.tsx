@@ -8,38 +8,26 @@ export default function CTASignup() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Connect to email service (Mailchimp, ConvertKit, etc.)
-    if (email) {
-      setSubmitted(true);
-    }
+    if (email) setSubmitted(true);
   };
 
   return (
-    <section id="signup" className="py-20 sm:py-28 px-4 bg-forest relative overflow-hidden">
-      {/* Glow effect */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-[800px] h-[400px] bg-gold/5 rounded-full blur-3xl" />
-      </div>
-
-      <div className="max-w-2xl mx-auto text-center relative z-10">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-cream mb-4">
-          Be the First to <span className="text-gold">Know</span>
+    <section id="signup" className="py-20 sm:py-28 px-6 bg-[#f5f0e8]">
+      <div className="max-w-2xl mx-auto text-center">
+        <p className="text-[#8B6914] text-xs font-semibold uppercase tracking-widest mb-3">Early Access</p>
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">
+          Be the First to Know
         </h2>
-        <p className="text-softwhite/80 text-lg mb-10 leading-relaxed">
-          Rooted Clarity is coming soon. Join the waitlist to get early access
-          and be part of a community that believes your health is worth more
-          than &ldquo;normal.&rdquo;
+        <div className="w-8 h-0.5 bg-[#8B6914] mx-auto mb-6" />
+        <p className="text-gray-600 mb-10 leading-relaxed">
+          Rooted Clarity is coming soon. Join the waitlist to get early access and be part of a community that believes your health is worth more than &ldquo;normal.&rdquo;
         </p>
 
         {submitted ? (
-          <div className="bg-teal/20 border border-teal/40 rounded-xl p-8">
+          <div className="bg-green-900/10 border border-green-900/20 rounded-2xl p-8">
             <span className="text-4xl block mb-3">🌿</span>
-            <p className="text-cream text-xl font-semibold mb-1">
-              You&apos;re on the list!
-            </p>
-            <p className="text-softwhite/70">
-              We&apos;ll be in touch when Rooted Clarity launches.
-            </p>
+            <p className="text-green-900 text-xl font-semibold mb-1">You&apos;re on the list!</p>
+            <p className="text-gray-500 text-sm">We&apos;ll be in touch when Rooted Clarity launches.</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
@@ -49,20 +37,17 @@ export default function CTASignup() {
               placeholder="Enter your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="flex-1 px-5 py-3 rounded-lg bg-dark/80 border border-sage/30 text-softwhite placeholder-softwhite/40 focus:outline-none focus:border-gold transition-colors"
+              className="flex-1 px-5 py-3 rounded-lg bg-white border border-gray-200 text-gray-800 placeholder-gray-400 focus:outline-none focus:border-green-900 transition-colors"
             />
             <button
               type="submit"
-              className="px-8 py-3 bg-gold text-dark font-semibold rounded-lg hover:bg-gold/90 transition-colors whitespace-nowrap"
+              className="px-8 py-3 bg-green-900 text-white font-semibold rounded-lg hover:bg-green-950 transition-colors whitespace-nowrap"
             >
               Join Waitlist
             </button>
           </form>
         )}
-
-        <p className="text-softwhite/40 text-xs mt-6">
-          No spam. Just updates on Rooted Clarity. Unsubscribe anytime.
-        </p>
+        <p className="text-gray-400 text-xs mt-4">No spam. Just updates. Unsubscribe anytime.</p>
       </div>
     </section>
   );

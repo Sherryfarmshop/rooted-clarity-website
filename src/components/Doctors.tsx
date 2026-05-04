@@ -1,43 +1,40 @@
 const doctors = [
-  { name: "Dr. Thomas Seyfried", focus: "Cancer as Metabolic Disease", quote: "Cancer is a metabolic disease, not a genetic one." },
-  { name: "Dr. Dom D'Agostino", focus: "Ketogenic Research & Fasting", quote: "If medicine wants to focus on prevention, there's no better tool than nutrition." },
-  { name: "Dr. Andrew Koutnik", focus: "Metabolic Health & Type 1 Diabetes", quote: "Optimizing metabolic health changes everything — from disease management to performance." },
-  { name: "Dr. Eric Berg", focus: "Keto & Nutritional Healing", quote: "Calories are insignificant compared to hormones." },
-  { name: "Dr. Ken Berry", focus: "Carnivore / Keto", quote: "No one has more to lose than you when it comes to your health." },
-  { name: "Thomas DeLauer", focus: "Fasting & Supplement Science", quote: "You don't want to be a one-trick pony — metabolic flexibility is the goal." },
-  { name: "Dr. Anthony Chaffee", focus: "Carnivore Diet & Disease Reversal", quote: "Plants are survival food. Meat is what humans are designed to eat." },
-  { name: "Dr. William Makis", focus: "Alternative Cancer Protocols", quote: "Patients deserve access to every tool available, not just the conventional ones." },
-  { name: "Dr. Nate Ward", focus: "Functional Medicine", quote: "Functional medicine finds the root cause — not just the symptoms." },
+  { name: "Dr. Thomas Seyfried", focus: "Cancer as Metabolic Disease" },
+  { name: "Dr. Dom D'Agostino", focus: "Ketogenic Research & Fasting" },
+  { name: "Dr. Andrew Koutnik", focus: "Metabolic Health & Type 1 Diabetes" },
+  { name: "Dr. Eric Berg", focus: "Keto & Nutritional Healing" },
+  { name: "Dr. Ken Berry", focus: "Carnivore / Keto" },
+  { name: "Thomas DeLauer", focus: "Fasting & Supplement Science" },
+  { name: "Dr. Anthony Chaffee", focus: "Carnivore Diet & Disease Reversal" },
+  { name: "Dr. William Makis", focus: "Alternative Cancer Protocols" },
+  { name: "Dr. Nate Ward", focus: "Functional Medicine" },
 ];
 
 export default function Doctors() {
   return (
-    <section id="doctors" className="py-20 sm:py-28 px-4 bg-dark">
+    <section id="doctors" className="py-20 sm:py-28 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-cream mb-4">
-          Built on Research, <span className="text-gold">Not Guesswork</span>
-        </h2>
-        <p className="text-center text-softwhite/70 max-w-2xl mx-auto mb-16 text-lg">
-          Rooted Clarity draws from publicly available research and educational
-          content from physicians, researchers, and health educators who have
-          helped advance conversations around metabolic health, nutrition,
-          fasting, and wellness.
-        </p>
+        <div className="text-center mb-14">
+          <p className="text-[#8B6914] text-xs font-semibold uppercase tracking-widest mb-3">Research Foundation</p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">Built on Research, Not Guesswork</h2>
+          <div className="w-8 h-0.5 bg-[#8B6914] mx-auto mb-6" />
+          <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">
+            Rooted Clarity draws from publicly available research and educational content from physicians, researchers, and health educators advancing conversations around metabolic health and wellness.
+          </p>
+        </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {doctors.map((doc) => (
-            <div
-              key={doc.name}
-              className="bg-forest/40 border border-sage/20 rounded-xl p-6 hover:border-gold/40 transition-colors group"
-            >
-              <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mb-4 group-hover:bg-gold/20 transition-colors">
-                <span className="text-gold text-lg font-bold font-[family-name:var(--font-playfair)]">
-                  {doc.name.charAt(0) === "D" ? doc.name.split(" ").pop()?.charAt(0) : doc.name.charAt(0)}
+            <div key={doc.name} className="flex items-center gap-4 p-5 rounded-xl border border-gray-100 bg-gray-50 hover:border-green-900/20 hover:bg-white transition-all">
+              <div className="w-10 h-10 rounded-full bg-green-900 flex items-center justify-center flex-shrink-0">
+                <span className="text-white text-sm font-bold">
+                  {doc.name.split(" ").pop()?.charAt(0)}
                 </span>
               </div>
-              <h3 className="text-lg font-bold text-cream mb-1">{doc.name}</h3>
-              <p className="text-teal text-sm font-medium mb-3">{doc.focus}</p>
-              <p className="text-softwhite/60 text-sm italic">&ldquo;{doc.quote}&rdquo;</p>
+              <div>
+                <h3 className="text-sm font-bold text-gray-900">{doc.name}</h3>
+                <p className="text-[#8B6914] text-xs">{doc.focus}</p>
+              </div>
             </div>
           ))}
         </div>
