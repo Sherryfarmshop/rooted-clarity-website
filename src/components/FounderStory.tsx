@@ -3,7 +3,7 @@ export default function FounderStory() {
     <section id="about" className="py-20 sm:py-28 px-6 bg-[#1B3A2A]">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
-          <p className="text-[#C9A84C] text-xs font-semibold uppercase tracking-widest mb-3">Our Story</p>
+          <p className="text-[#C9A84C] text-xs font-semibold uppercase tracking-widest mb-3">My Story</p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">Why I Built Rooted Clarity</h2>
           <div className="w-8 h-0.5 bg-[#C9A84C] mx-auto" />
         </div>
