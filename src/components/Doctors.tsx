@@ -135,7 +135,7 @@ export default function Doctors() {
           <div className="flex flex-col items-center gap-2">
             <a
               href="#signup"
-              className="inline-block bg-[#C9A84C] text-[#1B1B1B] font-bold px-8 py-4 rounded-lg hover:bg-[#b8944c] transition-colors text-sm shadow-md whitespace-nowrap"
+              className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 whitespace-nowrap"
             >
               Upload Your Labs (Takes 2 Minutes)
             </a>

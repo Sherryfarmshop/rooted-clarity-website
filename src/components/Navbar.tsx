@@ -38,7 +38,7 @@ export default function Navbar() {
                 {l.label}
               </a>
             ))}
-            <a href="#signup" className="px-5 py-2.5 bg-[#C9A84C] text-[#1B1B1B] text-sm font-bold rounded-lg hover:bg-[#b8944c] transition-colors shadow-md">
+            <a href="#signup" className="px-6 py-3 bg-[#C9A84C] text-[#1a1a1a] text-sm font-bold rounded-lg shadow-lg ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200">
               Upload Your Labs (Takes 2 Minutes)
             </a>
           </div>
@@ -63,7 +63,7 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a href="#signup" className="block mt-2 px-5 py-2.5 bg-[#C9A84C] text-[#1B1B1B] text-sm font-bold rounded-lg text-center shadow-md">
+          <a href="#signup" className="block mt-2 px-6 py-3 bg-[#C9A84C] text-[#1a1a1a] text-sm font-bold rounded-lg text-center shadow-lg ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200">
             Upload Your Labs (Takes 2 Minutes)
           </a>
         </div>
