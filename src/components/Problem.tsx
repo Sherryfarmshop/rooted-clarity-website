@@ -52,13 +52,11 @@ export default function Problem() {
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-white mb-2">We connect the dots.</h3>
                 <p className="text-green-200 text-sm leading-relaxed mb-6">
-                  We connect the dots so you can finally get{" "}
-                  <span className="text-[#C9A84C]">clear answers</span> and{" "}
-                  <span className="text-[#C9A84C]">feel like yourself again.</span>
+                  We help you understand what your labs are actually telling you — so you can feel like yourself again.
                 </p>
                 <a
                   href="#signup"
-                  className="inline-block w-full sm:w-auto text-center bg-[#C9A84C] text-white font-bold px-8 py-3 rounded-lg hover:bg-[#b8944c] transition-colors text-sm tracking-wide"
+                  className="inline-block w-full sm:w-auto text-center bg-[#C9A84C] text-[#1B1B1B] font-bold px-8 py-4 rounded-lg hover:bg-[#b8944c] transition-colors text-sm tracking-wide shadow-md"
                 >
                   Upload Your Labs (Takes 2 Minutes)
                 </a>
