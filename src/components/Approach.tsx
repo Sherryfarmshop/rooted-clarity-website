@@ -66,18 +66,31 @@ export default function Approach() {
         </div>
 
         {/* 4. DOCTOR / RESEARCH SECTION */}
-        <div className="border-t border-gray-300 pt-16">
+        <div className="border-t border-gray-300 pt-16 text-center">
           <h3 className="font-serif text-3xl sm:text-4xl font-bold text-[#1B3A2A] mb-4">
             Built from Real Metabolic Research
           </h3>
-          <p className="text-gray-600 text-base leading-relaxed max-w-2xl mb-8">
+          <p className="text-gray-600 text-base leading-relaxed max-w-2xl mx-auto mb-12">
             We draw from leading work in metabolism, nutrition, and clinical practice — and translate it into something you can actually use.
           </p>
-          <div className="flex flex-wrap gap-6">
-            {["Dr. Dom D\u2019Agostino", "Dr. Thomas Seyfried", "Dr. Ben Bikman", "Dr. Casey Means"].map((name) => (
-              <span key={name} className="text-[#1B3A2A] font-semibold text-sm border-b border-[#C9A84C] pb-0.5">
-                {name}
-              </span>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            {[
+              { name: "Dr. Dom D\u2019Agostino", initials: "DD", title: "Metabolic Physiology" },
+              { name: "Dr. Thomas Seyfried", initials: "TS", title: "Cancer Metabolism" },
+              { name: "Dr. Ben Bikman", initials: "BB", title: "Insulin & Metabolic Health" },
+              { name: "Dr. Casey Means", initials: "CM", title: "Metabolic Medicine" },
+            ].map((doc) => (
+              <div key={doc.name} className="bg-[#edeae3] rounded-2xl px-5 py-7 shadow-[0_2px_12px_rgba(0,0,0,0.07)] flex flex-col items-center gap-4">
+                {/* Circular initial avatar */}
+                <div className="w-20 h-20 rounded-full bg-[#1B3A2A] flex items-center justify-center flex-shrink-0">
+                  <span className="text-[#C9A84C] font-bold text-xl tracking-wide">{doc.initials}</span>
+                </div>
+                <div>
+                  <p className="text-[#1B3A2A] font-bold text-sm leading-tight mb-1">{doc.name}</p>
+                  <p className="text-gray-500 text-xs">{doc.title}</p>
+                </div>
+              </div>
             ))}
           </div>
         </div>
