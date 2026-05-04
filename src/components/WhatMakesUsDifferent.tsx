@@ -5,7 +5,7 @@ export default function WhatMakesUsDifferent() {
       {/* Olive branch top right */}
       <div className="absolute top-0 right-0 w-64 h-80 pointer-events-none select-none overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=500&q=80"
+          src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=500&q=80"
           alt=""
           className="w-full h-full object-cover object-left-bottom opacity-80"
         />
@@ -111,7 +111,7 @@ export default function WhatMakesUsDifferent() {
 
         {/* Dark CTA banner */}
         <div className="bg-[#1c3320] rounded-2xl px-8 py-10 overflow-hidden relative">
-          <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=800&q=80')] bg-cover bg-right" />
+          <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=800&q=80')] bg-cover bg-right" />
           <div className="relative z-10 flex flex-col sm:flex-row items-center gap-8">
             <div className="flex-shrink-0 w-20 h-20 rounded-full border-2 border-[#C9A84C]/60 flex items-center justify-center">
               <svg className="w-10 h-10 text-[#C9A84C]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.2}>
