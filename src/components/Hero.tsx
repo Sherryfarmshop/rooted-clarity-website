@@ -32,34 +32,13 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right — SVG potted plant */}
-          <div className="hidden md:flex items-end justify-center pb-0">
-            <svg viewBox="0 0 300 420" className="w-64 h-auto" fill="none" xmlns="http://www.w3.org/2000/svg">
-              {/* Pot */}
-              <path d="M105 310 L195 310 L185 390 L115 390 Z" fill="#C9A98D" />
-              <rect x="95" y="298" width="110" height="18" rx="4" fill="#B8956E" />
-              {/* Soil line */}
-              <ellipse cx="150" cy="305" rx="50" ry="8" fill="#5C3D1E" />
-              {/* Main stem */}
-              <path d="M150 305 L150 200" stroke="#4a6741" strokeWidth="5" strokeLinecap="round"/>
-              {/* Left big leaf */}
-              <path d="M148 240 C120 220 90 200 80 170 C110 165 138 185 150 215" fill="#3d6b3d" opacity="0.95"/>
-              {/* Right big leaf */}
-              <path d="M152 220 C180 200 210 180 220 150 C190 145 162 165 150 195" fill="#4a7a4a" opacity="0.95"/>
-              {/* Left mid leaf */}
-              <path d="M148 260 C115 245 90 230 85 210 C112 208 140 222 150 245" fill="#2d5a2d" opacity="0.9"/>
-              {/* Right mid leaf */}
-              <path d="M152 250 C185 235 210 220 215 200 C188 198 160 212 150 238" fill="#3d6b3d" opacity="0.9"/>
-              {/* Top left leaf */}
-              <path d="M147 200 C125 182 108 155 110 130 C133 138 148 165 150 192" fill="#4a7a4a" opacity="0.95"/>
-              {/* Top right leaf */}
-              <path d="M153 195 C175 177 192 150 190 125 C167 133 152 160 150 188" fill="#3d6b3d" opacity="0.95"/>
-              {/* Center top leaf */}
-              <path d="M150 190 C145 160 148 130 150 100 C155 130 155 160 150 190" fill="#2d5a2d" opacity="0.95"/>
-              {/* Small accent leaves */}
-              <path d="M148 275 C128 265 110 255 105 238 C125 237 144 250 150 268" fill="#4a7a4a" opacity="0.85"/>
-              <path d="M152 270 C172 260 190 250 195 233 C175 232 156 245 150 263" fill="#3d6b3d" opacity="0.85"/>
-            </svg>
+          {/* Right — potted plant photo */}
+          <div className="hidden md:flex items-end justify-center">
+            <img
+              src="/images/hero-plant.jpg"
+              alt="Green plant in beige pot"
+              className="w-80 h-auto object-contain"
+            />
           </div>
 
         </div>
