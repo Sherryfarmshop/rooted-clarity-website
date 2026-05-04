@@ -2,21 +2,6 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works">
 
-      {/* "Where most stop" — ivory */}
-      <div className="bg-[#f5f0e8] px-6 py-20 sm:py-28">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl text-gray-900 leading-tight mb-6 italic">
-            Where most stop<br />
-            at &ldquo;normal,&rdquo;<br />
-            we go further.
-          </h2>
-          <div className="w-8 h-0.5 bg-[#4a6741] mx-auto mb-6" />
-          <p className="text-gray-500 text-lg italic">
-            We look for patterns, not just numbers.
-          </p>
-        </div>
-      </div>
-
       {/* 3 Steps */}
       <div className="bg-[#f5f0e8] px-6 pb-16">
         <div className="max-w-4xl mx-auto">
