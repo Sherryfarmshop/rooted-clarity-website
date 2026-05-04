@@ -19,7 +19,7 @@ export default function CTASignup() {
           Be the First to Know
         </h2>
         <div className="w-8 h-0.5 bg-[#8B6914] mx-auto mb-6" />
-        <p className="text-gray-600 mb-10 leading-relaxed">
+        <p className="text-gray-600 mb-10 leading-relaxed text-justify">
           Rooted Clarity is coming soon. Join the waitlist to get early access and be part of a community that believes your health is worth more than &ldquo;normal.&rdquo;
         </p>
 

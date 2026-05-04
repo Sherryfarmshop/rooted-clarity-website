@@ -101,10 +101,10 @@ export default function Problem() {
               </div>
             </div>
             <div>
-              <p className="text-gray-700 leading-relaxed mb-3">
+              <p className="text-gray-700 leading-relaxed mb-3 text-justify">
                 That is because health is not always found in one marker alone.
               </p>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed text-justify">
                 Real insight comes from understanding how your labs work together — and what they may be revealing about the{" "}
                 <span className="text-green-800 font-medium">bigger metabolic picture.</span>
               </p>

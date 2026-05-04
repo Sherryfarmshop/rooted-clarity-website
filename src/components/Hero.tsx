@@ -18,7 +18,7 @@ export default function Hero() {
 
           <div className="w-8 h-0.5 bg-[#8B6914]" />
 
-          <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-md">
+          <p className="text-base sm:text-lg text-gray-600 leading-relaxed max-w-md text-justify">
             Upload your bloodwork and explore wellness-focused insights, metabolic patterns, and personalized guidance to help you better understand your body.
           </p>
 

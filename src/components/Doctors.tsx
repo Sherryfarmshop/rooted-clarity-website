@@ -10,7 +10,7 @@ export default function Doctors() {
               Built on<br />Research.<br />
               <span className="text-[#8B6914] italic">Not Guesswork.</span>
             </h2>
-            <p className="text-gray-500 text-lg leading-relaxed">
+            <p className="text-gray-500 text-lg leading-relaxed text-justify">
               Most systems look at numbers.<br />
               We look at how your body works together.
             </p>

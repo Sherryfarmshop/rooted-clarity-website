@@ -14,7 +14,7 @@ export default function Supplements() {
           <div className="border border-gray-100 rounded-2xl p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-shadow bg-gray-50">
             <div className="w-14 h-14 rounded-full bg-green-900/10 flex items-center justify-center mb-4 text-2xl">🩸</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Keto-Mojo</h3>
-            <p className="text-gray-500 text-sm leading-relaxed mb-6">
+            <p className="text-gray-500 text-sm leading-relaxed mb-6 text-justify">
               The gold standard for tracking blood glucose and ketones at home. Know your numbers — metabolic health starts with data you can see.
             </p>
             <a
@@ -30,7 +30,7 @@ export default function Supplements() {
           <div className="border border-gray-100 rounded-2xl p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md transition-shadow bg-gray-50">
             <div className="w-14 h-14 rounded-full bg-green-900/10 flex items-center justify-center mb-4 text-2xl">💊</div>
             <h3 className="text-lg font-bold text-gray-900 mb-2">Fullscript</h3>
-            <p className="text-gray-500 text-sm leading-relaxed mb-6">
+            <p className="text-gray-500 text-sm leading-relaxed mb-6 text-justify">
               Professional-grade supplements through a trusted platform. Get access to high-quality brands with practitioner-level guidance built in.
             </p>
             <a
