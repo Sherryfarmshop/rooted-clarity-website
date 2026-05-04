@@ -6,6 +6,7 @@ import Doctors from "@/components/Doctors";
 import FounderStory from "@/components/FounderStory";
 import AppFeatures from "@/components/AppFeatures";
 import CTASignup from "@/components/CTASignup";
+import Supplements from "@/components/Supplements";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Doctors />
         <FounderStory />
         <AppFeatures />
+        <Supplements />
         <CTASignup />
       </main>
       <Footer />
