@@ -17,17 +17,16 @@ export default function Approach() {
         </div>
 
         {/* 2. FEATURE IMAGE + TEXT */}
-        <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center mb-24">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center mb-24">
 
-          {/* Image — lab sheet, tight crop, warm tones */}
-          <div className="relative overflow-hidden rounded-2xl shadow-xl" style={{ flex: "0 0 55%" }}>
+          {/* Image — lab sheet + notebook */}
+          <div className="relative overflow-hidden rounded-2xl shadow-xl">
             <img
               src="/images/lab-results.jpg"
               alt="Hands reviewing lab results with handwritten notes"
-              className="w-full h-[460px] object-cover object-top"
+              className="w-full h-auto object-contain"
+              style={{ maxHeight: "520px" }}
             />
-            {/* Subtle dark overlay for depth */}
-            <div className="absolute inset-0 bg-black/12 rounded-2xl" />
           </div>
 
           {/* Right text */}
