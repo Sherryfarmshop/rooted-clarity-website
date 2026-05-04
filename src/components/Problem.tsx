@@ -48,14 +48,9 @@ export default function Problem() {
       <div className="bg-[#f5f0e8] px-6 pb-10">
         <div className="max-w-4xl mx-auto">
           <div className="bg-[#1B3A2A] rounded-2xl p-8">
-            <div className="flex flex-col sm:flex-row items-start gap-6">
-              <div className="w-12 h-12 rounded-xl border border-[#C9A84C]/40 flex items-center justify-center flex-shrink-0">
-                <svg className="w-6 h-6 text-[#C9A84C]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </div>
+            <div className="flex flex-col items-start gap-6">
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-white mb-2">That&apos;s exactly what we do.</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">We connect the dots.</h3>
                 <p className="text-green-200 text-sm leading-relaxed mb-6">
                   We connect the dots so you can finally get{" "}
                   <span className="text-[#C9A84C]">clear answers</span> and{" "}
@@ -65,7 +60,7 @@ export default function Problem() {
                   href="#signup"
                   className="inline-block w-full sm:w-auto text-center bg-[#C9A84C] text-white font-bold px-8 py-3 rounded-lg hover:bg-[#b8944c] transition-colors text-sm tracking-wide"
                 >
-                  See What Your Labs Are Really Saying
+                  Upload Your Labs (Takes 2 Minutes)
                 </a>
                 <div className="flex items-center gap-6 mt-4 text-green-400 text-xs">
                   <span className="flex items-center gap-1">
