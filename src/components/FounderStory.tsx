@@ -22,7 +22,7 @@ export default function FounderStory() {
                 That search led me into a deeper world of research. I began learning from physicians and researchers exploring the connections between metabolism, nutrition, and disease — in a way that finally made sense.
               </p>
               <p className="text-justify">
-                <strong>Rooted Clarity</strong> grew from that journey. It&apos;s the resource I wish I had when I was trying to connect the dots and understand what my body was telling me.
+                <strong>Rooted Clarity</strong>{" "}grew from that journey. It&apos;s the resource I wish I had when I was trying to connect the dots and understand what my body was telling me.
               </p>
             </div>
 
