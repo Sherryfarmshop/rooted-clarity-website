@@ -39,7 +39,7 @@ export default function WhatMakesUsDifferent() {
         {/* 4 Cards */}
         <div className="grid sm:grid-cols-2 gap-6 mb-10">
           {cards.map((card) => (
-            <div key={card.title} className="bg-[#edeae4] rounded-2xl p-6 shadow-md border border-gray-200">
+            <div key={card.title} className="bg-white rounded-2xl p-6 shadow-[0_2px_12px_rgba(0,0,0,0.08)] border border-gray-200/80">
               <h3 className="font-bold text-gray-900 text-lg mb-3">{card.title}</h3>
               <p className="text-gray-700 text-sm leading-relaxed font-semibold">{card.bold}</p>
               <p className="text-gray-500 text-sm leading-relaxed mt-1">{card.rest}</p>
