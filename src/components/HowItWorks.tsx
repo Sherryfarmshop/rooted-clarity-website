@@ -31,8 +31,8 @@ export default function HowItWorks() {
                 </svg>
               </div>
               <p className="text-[#C9A84C] font-bold text-lg mb-1">1.</p>
-              <h3 className="text-white font-bold text-sm mb-1">Upload Your Labs</h3>
-              <p className="text-green-200/60 text-xs leading-relaxed">Securely upload your bloodwork in just a few minutes.</p>
+              <h3 className="text-white font-bold text-lg mb-1">Upload Your Labs</h3>
+              <p className="text-green-200/60 text-base leading-relaxed">Securely upload your bloodwork in just a few minutes.</p>
             </div>
 
             {/* Arrow */}
@@ -50,8 +50,8 @@ export default function HowItWorks() {
                 </svg>
               </div>
               <p className="text-[#C9A84C] font-bold text-lg mb-1">2.</p>
-              <h3 className="text-white font-bold text-sm mb-1">Get Clear Insights</h3>
-              <p className="text-green-200/60 text-xs leading-relaxed">We review your results and identify patterns, imbalances, and opportunities.</p>
+              <h3 className="text-white font-bold text-lg mb-1">Get Clear Insights</h3>
+              <p className="text-green-200/60 text-base leading-relaxed">We review your results and identify patterns, imbalances, and opportunities.</p>
             </div>
 
             {/* Arrow */}
@@ -69,8 +69,8 @@ export default function HowItWorks() {
                 </svg>
               </div>
               <p className="text-[#C9A84C] font-bold text-lg mb-1">3.</p>
-              <h3 className="text-white font-bold text-sm mb-1">Personalized Guidance</h3>
-              <p className="text-green-200/60 text-xs leading-relaxed">Receive tailored recommendations and supplement support.</p>
+              <h3 className="text-white font-bold text-lg mb-1">Personalized Guidance</h3>
+              <p className="text-green-200/60 text-base leading-relaxed">Receive tailored recommendations and supplement support.</p>
             </div>
 
           </div>
