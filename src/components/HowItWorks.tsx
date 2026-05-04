@@ -2,18 +2,23 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works">
 
-      {/* Headline */}
-      <div className="bg-[#f5f0e8] px-6 pt-16 pb-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
-            Where most stop at &ldquo;normal,&rdquo;<br />
-            <span className="italic">we go further.</span>
+      {/* "Where most stop" — ivory */}
+      <div className="bg-[#f5f0e8] px-6 py-20 sm:py-28">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl text-gray-900 leading-tight mb-6 italic">
+            Where most stop<br />
+            at &ldquo;normal,&rdquo;<br />
+            we go further.
           </h2>
+          <div className="w-8 h-0.5 bg-[#4a6741] mx-auto mb-6" />
+          <p className="text-gray-500 text-lg italic">
+            We look for patterns, not just numbers.
+          </p>
         </div>
       </div>
 
       {/* 3 Steps */}
-      <div className="bg-[#f5f0e8] px-6 py-12">
+      <div className="bg-[#f5f0e8] px-6 pb-16">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-0">
 
@@ -64,7 +69,6 @@ export default function HowItWorks() {
       {/* Bottom trust bar */}
       <div className="bg-[#eae6dd] px-6 py-5">
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12">
-          {/* Privacy */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full border border-[#c5bda8] bg-white/50 flex items-center justify-center">
               <svg className="w-5 h-5 text-[#4a6741]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -77,10 +81,8 @@ export default function HowItWorks() {
             </div>
           </div>
 
-          {/* Divider */}
           <div className="hidden sm:block w-px h-10 bg-[#c5bda8]" />
 
-          {/* Rating */}
           <div className="flex items-center gap-3">
             <div className="flex gap-0.5">
               {[1,2,3,4,5].map((i) => (
@@ -89,9 +91,7 @@ export default function HowItWorks() {
                 </svg>
               ))}
             </div>
-            <div>
-              <p className="text-gray-500 text-xs">Trusted by people who want real answers.</p>
-            </div>
+            <p className="text-gray-500 text-xs">Trusted by people who want real answers.</p>
           </div>
         </div>
       </div>
