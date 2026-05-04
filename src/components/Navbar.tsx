@@ -38,8 +38,8 @@ export default function Navbar() {
                 {l.label}
               </a>
             ))}
-            <a href="#signup" className="px-5 py-2 bg-green-900 text-white text-sm font-semibold rounded-lg hover:bg-green-950 transition-colors">
-              Get Started
+            <a href="#signup" className="px-5 py-2 bg-[#1B3A2A] text-white text-sm font-semibold rounded-lg hover:bg-[#15301f] transition-colors">
+              Upload Your Labs
             </a>
           </div>
 
@@ -64,7 +64,7 @@ export default function Navbar() {
             </a>
           ))}
           <a href="#signup" className="block mt-2 px-5 py-2 bg-green-900 text-white text-sm font-semibold rounded-lg text-center">
-            Get Started
+            Upload Your Labs
           </a>
         </div>
       )}
