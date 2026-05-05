@@ -12,7 +12,7 @@ export default function TaglineBanner() {
         </h2>
         <div className="w-16 h-px bg-[#C9A84C] mx-auto mb-4" />
         <p className="text-[#f0ece3]/75 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-          We look for patterns tied to energy, hormones, metabolism, inflammation, and overall health — not just whether a number falls inside a reference range.
+          We look for patterns tied to energy, hormones, metabolism, inflammation, and overall health — not just isolated numbers.
         </p>
       </div>
     </section>
