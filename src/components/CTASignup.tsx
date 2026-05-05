@@ -12,7 +12,7 @@ export default function CTASignup() {
           href="#"
           className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 mb-5"
         >
-          Upload Your Labs (Takes 2 Minutes)
+          Upload Your Labs
         </a>
         <p className="text-green-300/50 text-sm">
           No subscriptions. No confusion. Just clarity.

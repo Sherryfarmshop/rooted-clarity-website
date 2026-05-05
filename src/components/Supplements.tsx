@@ -10,7 +10,7 @@ export default function Supplements() {
               Start with your labs. Then we decide what you actually need.
             </p>
             <h2 className="font-serif text-4xl sm:text-5xl font-bold text-gray-900 leading-tight mb-5">
-              Tools I Trust —<br />When Your Body Needs Support
+              What Actually<br />Moves the Needle
             </h2>
             <p className="text-gray-600 text-base leading-relaxed text-justify max-w-sm">
               Supplements aren&apos;t the starting point — they&apos;re the support.

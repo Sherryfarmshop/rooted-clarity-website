@@ -6,7 +6,7 @@ export default function Approach() {
         {/* 1. HEADLINE */}
         <div className="max-w-3xl mb-16">
           <h2 className="font-serif text-5xl sm:text-6xl font-bold text-[#1B3A2A] leading-tight mb-6">
-            Most Approaches Miss the Point
+            Why Most Lab Interpretations Fail
           </h2>
           <p className="text-gray-700 text-lg leading-relaxed mb-3">
             Your labs aren&apos;t &ldquo;fine.&rdquo; They&apos;re being interpreted in isolation.
@@ -20,13 +20,18 @@ export default function Approach() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center mb-24">
 
           {/* Image — lab sheet + notebook */}
-          <div className="relative overflow-hidden rounded-2xl shadow-xl">
-            <img
-              src="/images/lab-results.jpg"
-              alt="Hands reviewing lab results with handwritten notes"
-              className="w-full h-auto object-contain"
-              style={{ maxHeight: "520px" }}
-            />
+          <div>
+            <div className="relative overflow-hidden rounded-2xl shadow-xl">
+              <img
+                src="/images/lab-results.jpg"
+                alt="Hands reviewing lab results with handwritten notes"
+                className="w-full h-auto object-contain"
+                style={{ maxHeight: "520px" }}
+              />
+            </div>
+            <p className="text-gray-400 text-sm italic mt-3 text-center">
+              This is what most people are left with — numbers, no answers.
+            </p>
           </div>
 
           {/* Right text */}
