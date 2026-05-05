@@ -7,9 +7,9 @@ export default function WhatYouGet() {
         </h2>
         <ul className="space-y-6">
           {[
-            "A full breakdown of your lab results — not just ranges",
-            "Clear patterns across your body (hormones, metabolism, inflammation)",
-            "A step-by-step plan so you know what to do next",
+            "A clear breakdown of your labs (beyond \"normal\")",
+            "Patterns across your entire body (not isolated numbers)",
+            "A step-by-step plan so you know exactly what to do next",
           ].map((item, i) => (
             <li key={i} className="flex items-start gap-5">
               <div className="w-8 h-8 rounded-full bg-[#1B3A2A] flex items-center justify-center flex-shrink-0 mt-0.5">
