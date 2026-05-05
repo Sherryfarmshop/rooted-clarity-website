@@ -13,19 +13,18 @@ export default function Problem() {
               <span className="text-[#C9A84C]">and Your Health</span>
             </h2>
 
-            <div className="space-y-4 mb-6">
+            <div className="space-y-3 mb-5 max-w-sm">
               <p className="text-green-100 text-lg">
                 You&apos;re told everything looks &ldquo;normal.&rdquo;<br />
                 But you don&apos;t feel like yourself.
               </p>
-              <p className="text-green-100 text-lg font-semibold">
-                Your labs don&apos;t exist in isolation.<br />
-                Your body works as a system.
+              <p className="text-green-100 text-lg">
+                Your body works as a connected system — not isolated numbers.
               </p>
             </div>
 
-            <p className="text-green-200/75 text-base leading-relaxed">
-              We look for patterns tied to energy, hormones, metabolism, inflammation, and overall health — not just isolated numbers.
+            <p className="text-green-200/75 text-base leading-relaxed max-w-sm">
+              We look for patterns tied to hormones, metabolism, inflammation, energy, and overall health.
             </p>
           </div>
 
@@ -48,10 +47,10 @@ export default function Problem() {
       </div>
 
       {/* CTA box */}
-      <div className="bg-[#f5f0e8] px-6 py-10">
+      <div className="bg-[#f5f0e8] px-6 pt-14 pb-10">
         <div className="max-w-4xl mx-auto">
           <div className="bg-[#1B3A2A] rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-white mb-2">We connect the dots.</h3>
+            <h3 className="text-3xl font-bold text-white mb-3">We connect the dots.</h3>
             <p className="text-green-200 text-sm leading-relaxed mb-6">
               We help connect patterns across your labs so you can better understand what your body is telling you.
             </p>
