@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import WhatYouGet from "@/components/WhatYouGet";
 import TaglineBanner from "@/components/TaglineBanner";
 import Problem from "@/components/Problem";
 import WhatMakesUsDifferent from "@/components/WhatMakesUsDifferent";
@@ -16,7 +15,6 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <WhatYouGet />
         <TaglineBanner />
         <Problem />
         <WhatMakesUsDifferent />
