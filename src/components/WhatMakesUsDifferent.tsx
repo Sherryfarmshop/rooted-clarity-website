@@ -29,27 +29,27 @@ export default function WhatMakesUsDifferent() {
   ];
 
   const cardStyles: Record<string, string> = {
-    green: "bg-gradient-to-br from-[#f0f7f0] via-white to-[#e8f4e8] shadow-[0_4px_24px_rgba(27,58,42,0.12)] hover:shadow-[0_8px_32px_rgba(27,58,42,0.18)]",
-    gold: "bg-gradient-to-br from-[#fdf8ee] via-white to-[#f7edcc] shadow-[0_4px_24px_rgba(201,168,76,0.15)] hover:shadow-[0_8px_32px_rgba(201,168,76,0.22)]",
-    swirl: "bg-gradient-to-br from-[#f5f2ee] via-white to-[#ece6da] shadow-[0_4px_24px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.13)]",
-    texture: "bg-gradient-to-br from-[#f0f4f0] via-white to-[#e6ede6] shadow-[0_4px_24px_rgba(27,58,42,0.10)] hover:shadow-[0_8px_32px_rgba(27,58,42,0.16)]",
+    green: "bg-gradient-to-br from-[#e8f2e8] via-[#eff6ef] to-[#ddeedd] shadow-[0_4px_24px_rgba(27,58,42,0.14)] hover:shadow-[0_8px_32px_rgba(27,58,42,0.22)]",
+    gold: "bg-gradient-to-br from-[#faf3e0] via-[#fdf8ee] to-[#f2e4b8] shadow-[0_4px_24px_rgba(201,168,76,0.18)] hover:shadow-[0_8px_32px_rgba(201,168,76,0.28)]",
+    swirl: "bg-gradient-to-br from-[#f0ebe2] via-[#f5f1ea] to-[#e5dccf] shadow-[0_4px_24px_rgba(0,0,0,0.10)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.16)]",
+    texture: "bg-gradient-to-br from-[#e8ede8] via-[#eff3ef] to-[#dce6dc] shadow-[0_4px_24px_rgba(27,58,42,0.12)] hover:shadow-[0_8px_32px_rgba(27,58,42,0.18)]",
   };
 
   const accentEl: Record<string, React.ReactNode> = {
     green: (
-      <div className="absolute top-0 left-0 w-24 h-24 rounded-full bg-[#1B3A2A]/5 -translate-x-8 -translate-y-8 pointer-events-none" />
+      <div className="absolute top-0 left-0 w-28 h-28 rounded-full bg-[#1B3A2A]/10 -translate-x-8 -translate-y-8 pointer-events-none" />
     ),
     gold: (
-      <div className="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-[#C9A84C]/40 rounded-tr-2xl pointer-events-none" />
+      <div className="absolute top-0 right-0 w-20 h-20 border-t-2 border-r-2 border-[#C9A84C]/60 rounded-tr-2xl pointer-events-none" />
     ),
     swirl: (
-      <svg className="absolute bottom-2 right-2 w-16 h-16 text-[#C9A84C]/10 pointer-events-none" viewBox="0 0 100 100" fill="none">
+      <svg className="absolute bottom-2 right-2 w-20 h-20 text-[#C9A84C]/20 pointer-events-none" viewBox="0 0 100 100" fill="none">
         <path d="M80 50C80 66 66 80 50 80C34 80 20 66 20 50C20 34 34 20 50 20" stroke="currentColor" strokeWidth="8" strokeLinecap="round"/>
-        <path d="M65 20C72 27 80 38 80 50" stroke="currentColor" strokeWidth="8" strokeLinecap="round" opacity="0.5"/>
+        <path d="M65 20C72 27 80 38 80 50" stroke="currentColor" strokeWidth="8" strokeLinecap="round" opacity="0.6"/>
       </svg>
     ),
     texture: (
-      <svg className="absolute top-2 left-2 w-12 h-12 text-[#1B3A2A]/8 pointer-events-none" viewBox="0 0 60 60" fill="none">
+      <svg className="absolute top-2 left-2 w-14 h-14 text-[#1B3A2A]/15 pointer-events-none" viewBox="0 0 60 60" fill="none">
         <circle cx="10" cy="10" r="3" fill="currentColor"/>
         <circle cx="30" cy="10" r="3" fill="currentColor"/>
         <circle cx="50" cy="10" r="3" fill="currentColor"/>
@@ -68,7 +68,7 @@ export default function WhatMakesUsDifferent() {
       <div className="max-w-5xl mx-auto px-6 py-20 sm:py-28">
 
         {/* Headline */}
-        <h2 className="text-center font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
+        <h2 className="text-center font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-[1.15] mb-4 max-w-lg mx-auto">
           Why You Still Don&apos;t Have Answers
         </h2>
         <p className="text-center text-gray-600 text-base sm:text-lg mb-14">
