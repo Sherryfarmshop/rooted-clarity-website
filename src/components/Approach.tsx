@@ -1,23 +1,23 @@
 export default function Approach() {
   return (
-    <section id="approach" className="bg-[#f0ece3]">
-      <div className="max-w-6xl mx-auto px-6 lg:px-12 py-16 sm:py-20">
+    <section id="approach" style={{ background: "linear-gradient(160deg, #eee8dc 0%, #f0ece3 50%, #e8e2d5 100%)" }}>
+      <div className="max-w-6xl mx-auto px-6 lg:px-12 pt-10 pb-16 sm:pt-12 sm:pb-20">
 
         {/* HEADLINE + supporting copy */}
-        <div className="max-w-2xl mb-10">
-          <h2 className="font-serif text-4xl sm:text-5xl font-bold text-[#1B3A2A] leading-tight mb-5">
+        <div className="max-w-2xl mb-8">
+          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1B3A2A] leading-tight mb-4">
             Why Most Lab Interpretations Fail
           </h2>
-          <p className="text-gray-700 text-lg leading-relaxed mb-2">
+          <p className="text-gray-800 text-base leading-relaxed mb-2">
             Your labs aren&apos;t &ldquo;fine.&rdquo; They&apos;re being interpreted in isolation.
           </p>
-          <p className="text-gray-700 text-lg leading-relaxed">
+          <p className="text-gray-800 text-base leading-relaxed">
             Your body works as a system — and your labs reflect that.
           </p>
         </div>
 
         {/* IMAGE + emotional text — two column */}
-        <div className="grid md:grid-cols-2 gap-10 lg:gap-16 items-center mb-10">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-14 items-center mb-6">
 
           <div className="relative overflow-hidden rounded-2xl shadow-xl">
             <img
@@ -41,11 +41,11 @@ export default function Approach() {
 
         </div>
 
-        {/* Subtle divider fade */}
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-[#c5bda8] to-transparent mb-10" />
+        {/* Subtle divider */}
+        <div className="w-full h-px bg-gradient-to-r from-transparent via-[#b8ad98] to-transparent mb-8" />
 
-        {/* THREE PILLARS — flows directly from above */}
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        {/* THREE PILLARS */}
+        <div className="grid md:grid-cols-3 gap-6 mb-16">
           {[
             {
               title: "Patterns",
@@ -60,9 +60,9 @@ export default function Approach() {
               body: "You leave knowing exactly what to do next.",
             },
           ].map((p) => (
-            <div key={p.title} className="border-t-2 border-[#1B3A2A] pt-5">
-              <h3 className="font-serif text-2xl font-bold text-[#1B3A2A] mb-2">{p.title}</h3>
-              <p className="text-gray-600 text-base leading-relaxed">{p.body}</p>
+            <div key={p.title} className="border-t-[3px] border-[#1B3A2A] pt-5 bg-[#e8e2d5]/40 rounded-b-lg px-4 pb-5">
+              <h3 className="font-serif text-2xl font-extrabold text-[#1B3A2A] mb-2">{p.title}</h3>
+              <p className="text-gray-700 text-base leading-relaxed">{p.body}</p>
             </div>
           ))}
         </div>
