@@ -14,6 +14,10 @@ export default function Approach() {
           <p className="text-gray-700 text-lg leading-relaxed">
             Your body works as a system — and your labs reflect that.
           </p>
+          <p className="text-gray-800 text-xl font-medium mt-6">
+            This is what most people are left with:<br />
+            numbers&hellip; but no answers.
+          </p>
         </div>
 
         {/* 2. FEATURE IMAGE + TEXT */}
