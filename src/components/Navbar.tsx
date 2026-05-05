@@ -7,7 +7,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: "#how-it-works", label: "How It Works" },
+    { href: "#approach", label: "How It Works" },
     { href: "#about", label: "About" },
     { href: "#supplements", label: "Supplements" },
     { href: "/learn", label: "Learn" },
