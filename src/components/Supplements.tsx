@@ -172,21 +172,7 @@ export default function Supplements() {
         </div>
       </div>
 
-      {/* Footer CTA */}
-      <div className="bg-[#1B3A2A] px-6 py-8">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div>
-            <p className="text-white font-semibold text-lg">Ready to Get Clear Answers About Your Health?</p>
-            <p className="text-green-300/70 text-sm">Upload your labs and let&apos;s find the root cause—together.</p>
-          </div>
-          <a
-            href="#signup"
-            className="flex-shrink-0 inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 whitespace-nowrap"
-          >
-            Upload Your Labs (Takes 2 Minutes)
-          </a>
-        </div>
-      </div>
+
 
     </section>
   );
