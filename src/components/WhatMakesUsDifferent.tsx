@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function WhatMakesUsDifferent() {
   const cards = [
     {
@@ -33,7 +35,7 @@ export default function WhatMakesUsDifferent() {
     texture: "bg-gradient-to-br from-[#f0f4f0] via-white to-[#e6ede6] shadow-[0_4px_24px_rgba(27,58,42,0.10)] hover:shadow-[0_8px_32px_rgba(27,58,42,0.16)]",
   };
 
-  const accentEl: Record<string, JSX.Element> = {
+  const accentEl: Record<string, React.ReactNode> = {
     green: (
       <div className="absolute top-0 left-0 w-24 h-24 rounded-full bg-[#1B3A2A]/5 -translate-x-8 -translate-y-8 pointer-events-none" />
     ),
