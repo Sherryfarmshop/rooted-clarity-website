@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import TaglineBanner from "@/components/TaglineBanner";
-import Problem from "@/components/Problem";
+import HowItWorks from "@/components/HowItWorks";
 import WhatMakesUsDifferent from "@/components/WhatMakesUsDifferent";
 import Approach from "@/components/Approach";
 import Supplements from "@/components/Supplements";
@@ -16,7 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <TaglineBanner />
-        <Problem />
+        <HowItWorks />
         <WhatMakesUsDifferent />
         <Approach />
         <Supplements />
