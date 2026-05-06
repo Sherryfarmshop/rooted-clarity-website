@@ -65,18 +65,18 @@ export default function WhatMakesUsDifferent() {
 
   return (
     <section id="different" className="bg-[#f7f4ef]">
-      <div className="max-w-5xl mx-auto px-6 py-20 sm:py-28">
+      <div className="max-w-5xl mx-auto px-6 py-12 sm:py-16">
 
         {/* Headline */}
-        <h2 className="text-center font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-[1.15] mb-4 max-w-lg mx-auto">
+        <h2 className="text-center font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-2 max-w-2xl mx-auto">
           Why You Still Don&apos;t Have Answers
         </h2>
-        <p className="text-center text-gray-600 text-base sm:text-lg mb-14">
+        <p className="text-center text-gray-500 text-sm sm:text-base mb-8">
           You&apos;re not crazy. Your labs are missing the full picture.
         </p>
 
         {/* Cards */}
-        <div className="grid sm:grid-cols-2 gap-6 mb-14">
+        <div className="grid sm:grid-cols-2 gap-4 mb-8">
           {cards.map((card) => (
             <div
               key={card.title}
