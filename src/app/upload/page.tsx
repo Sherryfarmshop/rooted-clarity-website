@@ -78,9 +78,9 @@ function SystemCard({ group, selected, onToggle, onSelectSymptom }: {
 
       {/* Expanded checkbox list */}
       <div className={`transition-all duration-300 overflow-hidden ${open ? "max-h-[600px]" : "max-h-0"}`}>
-        <div className="px-4 pb-4 pt-1 grid grid-cols-1 sm:grid-cols-2 gap-2 border-t border-[#e8e2d8]">
+        <div className="px-5 pb-5 pt-3 grid grid-cols-1 sm:grid-cols-2 gap-2.5 border-t border-[#e8e2d8]">
           {group.symptoms.map((s) => (
-            <label key={s} className="flex items-start gap-2 cursor-pointer group">
+            <label key={s} className="flex items-start gap-2.5 cursor-pointer group">
               <input
                 type="checkbox"
                 name="symptoms"
@@ -89,7 +89,7 @@ function SystemCard({ group, selected, onToggle, onSelectSymptom }: {
                 onChange={() => onSelectSymptom(s)}
                 className="mt-0.5 w-4 h-4 rounded accent-[#1a3325] flex-shrink-0"
               />
-              <span className="text-gray-700 text-xs leading-snug group-hover:text-[#1a3325] transition-colors">{s}</span>
+              <span className="text-gray-700 text-sm leading-snug group-hover:text-[#1a3325] transition-colors">{s}</span>
             </label>
           ))}
         </div>
@@ -131,17 +131,19 @@ export default function UploadPage() {
     <>
       <Navbar />
       <main className="bg-[#f8f6f1] min-h-screen pt-28 pb-20">
-        <div className="max-w-xl mx-auto px-6">
+        <div className="max-w-3xl mx-auto px-6">
 
-          <p className="text-[#8B6914]/60 text-xs uppercase tracking-[0.2em] mb-4">Rooted Clarity Health</p>
-          <h1 className="font-serif text-4xl sm:text-5xl font-bold text-[#1B3A2A] leading-tight mb-3">Start My Review</h1>
-          <p className="text-gray-500 text-base leading-relaxed mb-3">
-            Upload your labs and tell us what you&apos;re experiencing. We&apos;ll review your results and send you personalized insights within 48 hours.
-          </p>
-          <p className="text-gray-400 text-sm italic leading-relaxed mb-10">
-            No guessing. No generic advice. Just a deeper look at what your body may be trying to tell you.
-          </p>
-          <div className="w-12 h-px bg-[#C9A84C] mb-10" />
+          <div className="max-w-xl mx-auto">
+            <p className="text-[#8B6914]/60 text-xs uppercase tracking-[0.2em] mb-4">Rooted Clarity Health</p>
+            <h1 className="font-serif text-4xl sm:text-5xl font-bold text-[#1B3A2A] leading-tight mb-3">Start My Review</h1>
+            <p className="text-gray-500 text-base leading-relaxed mb-3">
+              Upload your labs and tell us what you&apos;re experiencing. We&apos;ll review your results and send you personalized insights within 48 hours.
+            </p>
+            <p className="text-gray-400 text-sm italic leading-relaxed mb-10">
+              No guessing. No generic advice. Just a deeper look at what your body may be trying to tell you.
+            </p>
+            <div className="w-12 h-px bg-[#C9A84C] mb-10" />
+          </div>
 
           {submitted ? (
             <div className="text-center py-20">
@@ -204,7 +206,7 @@ export default function UploadPage() {
                 <p className="text-gray-500 text-sm leading-relaxed mb-6">
                   Your symptoms are patterns — not random problems. This helps us see the bigger picture behind your energy, metabolism, hormones, inflammation, and overall health.
                 </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {symptomGroups.map((group) => (
                     <SystemCard
                       key={group.label}
