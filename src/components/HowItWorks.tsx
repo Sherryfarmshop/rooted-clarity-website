@@ -27,7 +27,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section id="how-it-works" className="bg-[#f7f4ef] px-6 py-16 sm:py-20">
+    <section id="how-it-works" className="bg-[#f8f6f1] px-6 py-16 sm:py-20">
       <div className="max-w-5xl mx-auto">
 
         <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1B3A2A] mb-2">
@@ -41,23 +41,23 @@ export default function HowItWorks() {
           {steps.map((step) => (
             <div
               key={step.number}
-              className="rounded-2xl overflow-hidden shadow-sm border border-[#e0d8cc] bg-white"
+              className="rounded-2xl overflow-hidden border border-[#e0d8cc] bg-[#fdfaf6] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 group"
             >
               {/* Photo */}
-              <div className="overflow-hidden h-44">
+              <div className="overflow-hidden h-52">
                 <img
                   src={step.img}
                   alt={step.alt}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-500"
                 />
               </div>
 
               {/* Text */}
               <div className="px-6 py-5">
                 <p className="text-[#C9A84C] text-xs font-semibold tracking-widest mb-2">{step.number}</p>
-                <h3 className="font-serif text-lg font-bold text-[#1B3A2A] mb-2 leading-snug">{step.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed mb-2">{step.desc}</p>
-                <p className="text-gray-400 text-xs italic">{step.detail}</p>
+                <h3 className="font-serif text-xl font-bold text-[#1B3A2A] mb-2 leading-tight">{step.title}</h3>
+                <p className="text-gray-700 text-sm leading-relaxed mb-2">{step.desc}</p>
+                <p className="text-gray-500 text-xs italic">{step.detail}</p>
               </div>
             </div>
           ))}
