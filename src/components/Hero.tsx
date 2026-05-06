@@ -35,10 +35,11 @@ export default function Hero() {
 
         <a
           href="/upload"
-          className="inline-flex items-center gap-3 bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-md text-base uppercase tracking-widest shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200"
+          className="inline-flex items-center gap-3 bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-md text-base uppercase tracking-widest shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 mb-3"
         >
-          Upload Your Labs (Takes 2 Minutes)
+          Start My Review
         </a>
+        <p className="text-white/40 text-xs italic">Upload labs, symptoms, and health concerns for a personalized wellness review.</p>
 
       </div>
     </section>

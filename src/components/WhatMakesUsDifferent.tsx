@@ -102,11 +102,12 @@ export default function WhatMakesUsDifferent() {
             <span className="text-[#C9A84C] font-bold italic" style={{ textShadow: "0 0 20px rgba(201,168,76,0.4)" }}>feel like yourself again.</span>
           </p>
           <a
-            href="#signup"
-            className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200"
+            href="/upload"
+            className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 mb-3"
           >
-            Upload Your Labs (Takes 2 Minutes)
+            Start My Review
           </a>
+          <p className="text-green-300/60 text-xs italic">Upload labs, symptoms, and health concerns for a personalized wellness review.</p>
         </div>
 
       </div>

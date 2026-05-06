@@ -118,10 +118,13 @@ export default function CTASignup() {
             (e.currentTarget as HTMLAnchorElement).style.boxShadow = "0 4px 20px rgba(201,168,76,0.22)";
           }}
         >
-          Upload My Labs
+          Start My Review
         </a>
 
-        <p className="text-green-300/45 text-sm">
+        <p className="text-green-200/55 text-xs italic mb-2">
+          Upload labs, symptoms, and health concerns for a personalized wellness review.
+        </p>
+        <p className="text-green-300/40 text-sm">
           No subscriptions. No overwhelm. Just clarity.
         </p>
 

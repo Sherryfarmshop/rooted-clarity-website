@@ -55,11 +55,12 @@ export default function Problem() {
               We help connect patterns across your labs so you can better understand what your body is telling you.
             </p>
             <a
-              href="#signup"
-              className="inline-block w-full sm:w-auto text-center bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 mb-4"
+              href="/upload"
+              className="inline-block w-full sm:w-auto text-center bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 mb-2"
             >
-              Upload Your Labs (Takes 2 Minutes)
+              Start My Review
             </a>
+            <p className="text-green-300/60 text-xs italic mb-4">Upload labs, symptoms, and health concerns for a personalized wellness review.</p>
             <div className="flex items-center gap-6 text-green-400 text-xs mt-2">
               <span className="flex items-center gap-1">
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>

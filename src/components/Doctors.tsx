@@ -134,10 +134,10 @@ export default function Doctors() {
           {/* Button */}
           <div className="flex flex-col items-center gap-2">
             <a
-              href="#signup"
+              href="/upload"
               className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 whitespace-nowrap"
             >
-              Upload Your Labs (Takes 2 Minutes)
+              Start My Review
             </a>
             <span className="text-green-300/50 text-xs flex items-center gap-1">
               🔒 100% Secure & HIPAA Compliant
