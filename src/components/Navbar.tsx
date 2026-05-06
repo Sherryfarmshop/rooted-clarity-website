@@ -16,18 +16,28 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#f5f0e8]/95 backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <a href="#" className="flex items-center gap-3">
+        <div className="flex items-center justify-between h-20">
+          <a href="#" className="flex items-center gap-4">
             <Image
               src="/images/logo.webp"
               alt="Rooted Clarity"
-              width={42}
-              height={42}
-              className="rounded-lg"
+              width={56}
+              height={56}
+              className="rounded-lg flex-shrink-0"
             />
-            <div className="flex flex-col leading-none">
-              <span className="font-bold text-gray-900 text-lg tracking-wide">ROOTED</span>
-              <span className="text-[#8B6914] text-xs tracking-widest font-medium">CLARITY HEALTH</span>
+            <div className="flex items-baseline gap-2">
+              <span
+                className="text-[#1B3A2A] text-xl sm:text-2xl font-bold"
+                style={{ fontFamily: "Georgia, 'Times New Roman', serif", letterSpacing: "0.02em" }}
+              >
+                Rooted Clarity
+              </span>
+              <span
+                className="text-[#8B6914] text-sm font-normal hidden sm:inline"
+                style={{ fontFamily: "Georgia, 'Times New Roman', serif", letterSpacing: "0.12em" }}
+              >
+                Health
+              </span>
             </div>
           </a>
 
