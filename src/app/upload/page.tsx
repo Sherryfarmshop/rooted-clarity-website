@@ -109,7 +109,7 @@ function Accordion({ group }: { group: typeof symptomGroups[0] }) {
   const [open, setOpen] = useState(group.defaultOpen);
 
   return (
-    <div className="border border-[#e5dfd5] rounded-xl overflow-hidden">
+    <div className="border border-[#e5dfd5] rounded-xl overflow-hidden hover:border-[#C9A84C]/40 transition-colors duration-300">
       <button
         type="button"
         onClick={() => setOpen(!open)}
@@ -168,14 +168,17 @@ export default function UploadPage() {
     <>
       <Navbar />
       <main className="bg-[#f8f6f1] min-h-screen pt-28 pb-20">
-        <div className="max-w-2xl mx-auto px-6">
+        <div className="max-w-xl mx-auto px-6">
 
           <p className="text-[#8B6914]/60 text-xs uppercase tracking-[0.2em] mb-4">Rooted Clarity Health</p>
           <h1 className="font-serif text-4xl sm:text-5xl font-bold text-[#1B3A2A] leading-tight mb-3">
             Start My Review
           </h1>
-          <p className="text-gray-500 text-base leading-relaxed mb-10">
+          <p className="text-gray-500 text-base leading-relaxed mb-3">
             Upload your labs and tell us what you&apos;re experiencing. We&apos;ll review your results and send you personalized insights within 48 hours.
+          </p>
+          <p className="text-gray-400 text-sm italic leading-relaxed mb-10">
+            No guessing. No generic advice. Just a deeper look at what your body may be trying to tell you.
           </p>
           <div className="w-12 h-px bg-[#C9A84C] mb-10" />
 
@@ -193,7 +196,7 @@ export default function UploadPage() {
               <p className="text-[#8B6914]/60 text-sm mt-6 italic">No subscriptions. No overwhelm. Just clarity.</p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-8">
+            <form onSubmit={handleSubmit} className="space-y-10">
 
               {/* 1. Your Information */}
               <div className="bg-white rounded-2xl p-7 shadow-sm border border-[#e5dfd5]">
@@ -279,7 +282,7 @@ export default function UploadPage() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-12 py-5 rounded-xl text-base uppercase tracking-widest shadow-xl hover:bg-[#b0873a] hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(201,168,76,0.3)] transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-14 py-6 rounded-2xl text-base uppercase tracking-widest shadow-[0_4px_20px_rgba(201,168,76,0.2)] hover:bg-[#b0873a] hover:-translate-y-0.5 hover:shadow-[0_10px_32px_rgba(201,168,76,0.28)] transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
                 >
                   {loading ? "Sending..." : "Start My Review"}
                 </button>
