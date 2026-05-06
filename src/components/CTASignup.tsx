@@ -92,9 +92,15 @@ export default function CTASignup() {
           <span style={{ color: "#b8893a" }}>been trying to say.</span>
         </h2>
 
-        <p className="text-green-100/80 text-base sm:text-lg leading-relaxed mb-12 max-w-md mx-auto">
-          We connect the patterns behind your symptoms, labs, energy, metabolism, and overall health — so you can stop guessing and start understanding.
-        </p>
+        <div className="mb-12 max-w-xs mx-auto space-y-2">
+          <p className="text-green-100/70 text-base sm:text-lg leading-[1.9]">
+            Your labs, symptoms, energy, and metabolism<br />
+            all tell a story.
+          </p>
+          <p className="text-green-100 text-base sm:text-lg leading-[1.9] font-semibold">
+            We help you finally understand it.
+          </p>
+        </div>
 
         <a
           href="#"
