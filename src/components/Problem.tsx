@@ -47,9 +47,9 @@ export default function Problem() {
       </div>
 
       {/* CTA box */}
-      <div className="bg-[#f5f0e8] px-6 pt-8 pb-8">
+      <div className="bg-[#f5f0e8] px-6 pt-8 pb-0">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-[#1B3A2A] rounded-2xl px-8 py-6 flex flex-col sm:flex-row items-center gap-6">
+          <div className="bg-[#142d1e] rounded-2xl px-8 py-6 flex flex-col sm:flex-row items-center gap-6">
             <div className="flex-1">
               <h3 className="text-xl font-bold text-white mb-1">We connect the dots.</h3>
               <p className="text-green-200/80 text-sm leading-relaxed">
@@ -67,6 +67,14 @@ export default function Problem() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Separator */}
+      <div className="bg-[#f5f0e8] px-6 pt-8 pb-0">
+        <div
+          className="h-px w-full"
+          style={{ background: "linear-gradient(to right, transparent, rgba(139,114,90,0.35) 20%, rgba(139,114,90,0.35) 80%, transparent)" }}
+        />
       </div>
 
     </section>

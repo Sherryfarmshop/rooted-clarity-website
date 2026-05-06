@@ -20,9 +20,6 @@ export default function Home() {
         <TaglineBanner />
         <HowItWorks />
         <Problem />
-        <div className="bg-[#f5f0e8] flex justify-center py-6">
-          <div className="w-24 h-px bg-[#b5a690]/50 rounded-full" />
-        </div>
         <WhatMakesUsDifferent />
         <Approach />
         <Supplements />
