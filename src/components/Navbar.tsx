@@ -25,16 +25,16 @@ export default function Navbar() {
               height={56}
               className="rounded-lg flex-shrink-0"
             />
-            <div className="flex items-baseline gap-2">
+            <div className="flex flex-col leading-none gap-0.5">
               <span
-                className="text-[#1B3A2A] text-xl sm:text-2xl font-bold"
-                style={{ fontFamily: "Georgia, 'Times New Roman', serif", letterSpacing: "0.02em" }}
+                className="text-[#1B3A2A] text-xl sm:text-2xl font-bold tracking-tight"
+                style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
               >
                 Rooted Clarity
               </span>
               <span
-                className="text-[#8B6914] text-sm font-normal hidden sm:inline"
-                style={{ fontFamily: "Georgia, 'Times New Roman', serif", letterSpacing: "0.12em" }}
+                className="text-[#8B6914] text-[10px] font-normal uppercase tracking-[0.25em] hidden sm:block"
+                style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
               >
                 Health
               </span>

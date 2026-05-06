@@ -33,7 +33,7 @@ export default function HowItWorks() {
         <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#1B3A2A] mb-2">
           How It Works
         </h2>
-        <p className="text-gray-500 text-base mb-12">
+        <p className="text-gray-500 text-base mb-8">
           A simple process designed to help you finally connect the dots.
         </p>
 
