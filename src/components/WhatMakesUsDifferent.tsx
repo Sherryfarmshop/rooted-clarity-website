@@ -90,24 +90,26 @@ export default function WhatMakesUsDifferent() {
           ))}
         </div>
 
-        {/* CTA */}
+        {/* CTA — compact horizontal */}
         <div
-          className="rounded-2xl px-8 py-12"
+          className="rounded-2xl px-7 py-5 flex flex-col sm:flex-row items-center gap-5"
           style={{ background: "linear-gradient(135deg, #1B3A2A 0%, #254d35 60%, #1a3626 100%)" }}
         >
-          <p className="text-white text-xl sm:text-2xl font-medium leading-relaxed mb-6">
+          <p className="text-white text-base sm:text-lg font-medium leading-snug flex-1">
             We connect the dots so you can finally get{" "}
-            <span className="text-[#C9A84C] font-bold" style={{ textShadow: "0 0 20px rgba(201,168,76,0.4)" }}>clear answers</span>
+            <span className="text-[#C9A84C] font-bold" style={{ textShadow: "0 0 12px rgba(201,168,76,0.3)" }}>clear answers</span>
             {" "}and{" "}
-            <span className="text-[#C9A84C] font-bold italic" style={{ textShadow: "0 0 20px rgba(201,168,76,0.4)" }}>feel like yourself again.</span>
+            <span className="text-[#C9A84C] font-bold italic" style={{ textShadow: "0 0 12px rgba(201,168,76,0.3)" }}>feel like yourself again.</span>
           </p>
-          <a
-            href="/upload"
-            className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-10 py-5 rounded-lg text-base shadow-xl ring-1 ring-[#a8893d]/40 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 mb-3"
-          >
-            Start My Review
-          </a>
-          <p className="text-green-300/60 text-xs italic">Upload labs, symptoms, and health concerns for a personalized wellness review.</p>
+          <div className="flex-shrink-0 text-center">
+            <a
+              href="/upload"
+              className="inline-block bg-[#C9A84C] text-[#1a1a1a] font-bold px-8 py-3 rounded-lg text-sm shadow-lg ring-1 ring-[#a8893d]/30 hover:bg-[#b0873a] hover:-translate-y-0.5 transition-all duration-200 whitespace-nowrap"
+            >
+              Start My Review
+            </a>
+            <p className="text-green-300/50 text-xs italic mt-1.5">No subscriptions. Just clarity.</p>
+          </div>
         </div>
 
       </div>
