@@ -33,7 +33,7 @@ export default function CTASignup() {
   return (
     <section
       id="signup"
-      className="relative px-6 py-16 sm:py-20 text-center overflow-hidden"
+      className="relative px-6 py-10 sm:py-12 text-center overflow-hidden"
       style={{ background: "linear-gradient(160deg, #0e2218 0%, #1B3A2A 40%, #152d20 80%, #0e2218 100%)" }}
     >
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full pointer-events-none" />
@@ -42,28 +42,27 @@ export default function CTASignup() {
 
       <div className="relative z-10 max-w-2xl mx-auto">
 
-        <p className="text-[#C9A84C]/60 text-xs font-normal uppercase tracking-widest mb-5">
+        <p className="text-[#C9A84C]/60 text-xs font-normal uppercase tracking-widest mb-3">
           Rooted Clarity Health
         </p>
 
-        <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-white font-bold leading-tight mb-5">
-          Finally understand<br />
-          what your body has<br />
-          <span style={{ color: "#b8893a" }}>been trying to say.</span>
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-white font-bold leading-tight mb-3">
+          Finally understand what your body<br className="hidden sm:block" />
+          <span style={{ color: "#b8893a" }}> has been trying to say.</span>
         </h2>
 
-        <div className="mb-7 space-y-1">
-          <p className="text-green-100/70 text-sm sm:text-base leading-[1.8]">
+        <div className="mb-5 space-y-0.5">
+          <p className="text-green-100/70 text-sm leading-relaxed">
             Your labs, symptoms, energy, and metabolism all tell a story.
           </p>
-          <p className="text-green-100 text-sm sm:text-base leading-[1.8] font-semibold">
+          <p className="text-green-100 text-sm font-semibold">
             We help you finally understand it.
           </p>
         </div>
 
         <a
           href="/upload"
-          className="inline-block text-[#1a1a1a] font-bold px-10 py-4 rounded-xl text-sm uppercase tracking-widest mb-4 transition-all duration-300 hover:-translate-y-0.5"
+          className="inline-block text-[#1a1a1a] font-bold px-8 py-3 rounded-xl text-sm uppercase tracking-widest mb-3 transition-all duration-300 hover:-translate-y-0.5"
           style={{ background: "#C9A84C", boxShadow: "0 4px 20px rgba(201,168,76,0.22)" }}
           onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#b0873a"; (e.currentTarget as HTMLAnchorElement).style.boxShadow = "0 8px 28px rgba(201,168,76,0.28)"; }}
           onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.background = "#C9A84C"; (e.currentTarget as HTMLAnchorElement).style.boxShadow = "0 4px 20px rgba(201,168,76,0.22)"; }}
@@ -71,9 +70,6 @@ export default function CTASignup() {
           Start My Review
         </a>
 
-        <p className="text-green-200/55 text-xs italic mb-1">
-          Upload labs, symptoms, and health concerns for a personalized wellness review.
-        </p>
         <p className="text-green-300/40 text-xs">
           No subscriptions. No overwhelm. Just clarity.
         </p>
