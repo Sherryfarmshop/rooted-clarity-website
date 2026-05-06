@@ -103,7 +103,7 @@ export default function CTASignup() {
         </div>
 
         <a
-          href="#"
+          href="/upload"
           className="inline-block text-[#1a1a1a] font-bold px-12 py-5 rounded-xl text-base uppercase tracking-widest mb-6 transition-all duration-300 hover:-translate-y-1"
           style={{
             background: "#C9A84C",
